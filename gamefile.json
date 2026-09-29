@@ -175,9 +175,7 @@
                         "height": 11,
                         "alignment": "START",
                         "displayedTitle": "Réserve",
-                        "enterTapped": {
-                            "Unité": true
-                        },
+                        "enterTapped": true,
                         "noAutoPayTo": true
                     },
                     "Bomb": {
@@ -888,5 +886,17 @@
         "extraCardBacks": {
             "Héroïne": "https://enzomoulian.github.io/touhouTCGver5test1/back-heroine.png"
         }
-    }
+    },
+    "tokens": [
+        {
+            "name": "Bakezouri",
+            "image": "https://enzomoulian.github.io/touhouTCGver5test1/unites-creees/TST-129.png",
+            "isUnique": false
+        },
+        {
+            "name": "Kedama",
+            "image": "https://enzomoulian.github.io/touhouTCGver5test1/unites-creees/TST-130.png",
+            "isUnique": false
+        }
+    ]
 }
