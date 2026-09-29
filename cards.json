@@ -1,0 +1,36 @@
+{
+    "tst-001": {
+        "id": "tst-001",
+        "face": {
+            "front": {
+                "name": { "name": "Saki Kurokoma" },
+                "type": "Unité",
+                "cost": 1,
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-001.png"
+            }
+        },
+        "name": "Saki Kurokoma",
+        "type": "Unité",
+        "cost": 1,
+        "PP": 4,
+        "tags": ["Bête", "Clan Keiga"],
+        "element": "Feu"
+    },
+    "tst-002": {
+        "id": "tst-002",
+        "face": {
+            "front": {
+                "name": { "name": "Flandre Scarlet" },
+                "type": "Unité",
+                "cost": 3,
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-002.png"
+            }
+        },
+        "name": "Flandre Scarlet",
+        "type": "Unité",
+        "cost": 3,
+        "PP": 7,
+        "tags": ["Démon", "Vampire"],
+        "element": "Feu"
+    }
+}
