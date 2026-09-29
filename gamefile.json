@@ -49,7 +49,7 @@
             "sections": {
                 "autoPlayFromHand": {
                     "Unités": "Reserve",
-                    "Cartes de sort": "stack",
+                    "Cartes de sort": "Stack",
                     "Lieux": "ActivePlace"
                 },
                 "autoPlayFromStack": {
