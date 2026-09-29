@@ -45,7 +45,7 @@
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-003.png"
             }
         },
-        "name": "Flandre Scarlet",
+        "name": "Yuugi Hoshiguma",
         "type": "Unité",
         "cost": 2,
         "PP": 4,
@@ -63,7 +63,7 @@
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-004.png"
             }
         },
-        "name": "Flandre Scarlet",
+        "name": "Enoko Mitsugashira",
         "type": "Unité",
         "cost": 1,
         "PP": 1,
@@ -83,7 +83,7 @@
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-005.png"
             }
         },
-        "name": "Flandre Scarlet",
+        "name": "Technique Fulgurante « Hennissement Foudrouyant »",
         "type": "Carte de sort",
         "cost": 1,
         "PP": 3,
