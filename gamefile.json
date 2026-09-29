@@ -59,7 +59,8 @@
                                 {
                                     "section": "ActivePlace",
                                     "style": {
-                                        "width": "45%"
+                                        "width": "45%",
+                                        "margin": "0 auto"
                                     }
                                 },
                                 {
@@ -147,9 +148,6 @@
                                             "section": "PM"
                                         }
                                     ]
-                                },
-                                {
-                                    "section": "Remove"
                                 }
                             ]
                         }
@@ -159,7 +157,7 @@
                     "ActivePlace": {
                         "isHidden": "no",
                         "height": 11,
-                        "alignment": "START",
+                        "alignment": "CENTER",
                         "displayedTitle": "Lieu",
                         "noAutoPayTo": true
                     },
@@ -172,12 +170,6 @@
                             "Unité": true
                         },
                         "noAutoPayTo": true
-                    },
-                    "Remove": {
-                        "isHidden": "no",
-                        "height": 11,
-                        "alignment": "CENTER",
-                        "displayedTitle": "Monde extérieur"
                     },
                     "Bomb": {
                         "type": "custom",
@@ -202,6 +194,12 @@
                             "children": [
                                 {
                                     "type": "div",
+                                    "props": {
+                                        "style": {
+                                            "display": "flex",
+                                            "justifyContent": "center"
+                                        }
+                                    },
                                     "children": [
                                         {
                                             "type": "button",
@@ -209,17 +207,23 @@
                                                 "style": {
                                                     "width": "4vh",
                                                     "height": "4vh",
+                                                    "boxSizing": "border-box",
                                                     "margin": "0.3vh",
-                                                    "fontSize": "3vh",
-                                                    "lineHeight": "1",
                                                     "padding": "0",
-                                                    "background": "#ffffff",
-                                                    "color": "#d32f2f",
-                                                    "border": "2px solid #e6c5a5",
-                                                    "cursor": "pointer"
+                                                    "display": "flex",
+                                                    "alignItems": "center",
+                                                    "justifyContent": "center",
+                                                    "fontFamily": "Arial, sans-serif",
+                                                    "fontSize": "2.6vh",
+                                                    "lineHeight": "1",
+                                                    "fontWeight": "bold",
+                                                    "cursor": "pointer",
+                                                    "border": "2px solid #d32f2f",
+                                                    "color": "#ffffff",
+                                                    "background": "{{ game.data.Bomb.r1c1 ? '#d32f2f' : '#ffffff' }}"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r1c1 ? '☑' : '☐' }}",
+                                            "children": "{{ game.data.Bomb.r1c1 ? '✓' : '' }}",
                                             "onClick": "game.data.Bomb.r1c1 = !game.data.Bomb.r1c1"
                                         },
                                         {
@@ -228,17 +232,23 @@
                                                 "style": {
                                                     "width": "4vh",
                                                     "height": "4vh",
+                                                    "boxSizing": "border-box",
                                                     "margin": "0.3vh",
-                                                    "fontSize": "3vh",
-                                                    "lineHeight": "1",
                                                     "padding": "0",
-                                                    "background": "#ffffff",
-                                                    "color": "#d32f2f",
-                                                    "border": "2px solid #e6c5a5",
-                                                    "cursor": "pointer"
+                                                    "display": "flex",
+                                                    "alignItems": "center",
+                                                    "justifyContent": "center",
+                                                    "fontFamily": "Arial, sans-serif",
+                                                    "fontSize": "2.6vh",
+                                                    "lineHeight": "1",
+                                                    "fontWeight": "bold",
+                                                    "cursor": "pointer",
+                                                    "border": "2px solid #d32f2f",
+                                                    "color": "#ffffff",
+                                                    "background": "{{ game.data.Bomb.r1c2 ? '#d32f2f' : '#ffffff' }}"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r1c2 ? '☑' : '☐' }}",
+                                            "children": "{{ game.data.Bomb.r1c2 ? '✓' : '' }}",
                                             "onClick": "game.data.Bomb.r1c2 = !game.data.Bomb.r1c2"
                                         },
                                         {
@@ -247,23 +257,35 @@
                                                 "style": {
                                                     "width": "4vh",
                                                     "height": "4vh",
+                                                    "boxSizing": "border-box",
                                                     "margin": "0.3vh",
-                                                    "fontSize": "3vh",
-                                                    "lineHeight": "1",
                                                     "padding": "0",
-                                                    "background": "#ffffff",
-                                                    "color": "#d32f2f",
-                                                    "border": "2px solid #e6c5a5",
-                                                    "cursor": "pointer"
+                                                    "display": "flex",
+                                                    "alignItems": "center",
+                                                    "justifyContent": "center",
+                                                    "fontFamily": "Arial, sans-serif",
+                                                    "fontSize": "2.6vh",
+                                                    "lineHeight": "1",
+                                                    "fontWeight": "bold",
+                                                    "cursor": "pointer",
+                                                    "border": "2px solid #d32f2f",
+                                                    "color": "#ffffff",
+                                                    "background": "{{ game.data.Bomb.r1c3 ? '#d32f2f' : '#ffffff' }}"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r1c3 ? '☑' : '☐' }}",
+                                            "children": "{{ game.data.Bomb.r1c3 ? '✓' : '' }}",
                                             "onClick": "game.data.Bomb.r1c3 = !game.data.Bomb.r1c3"
                                         }
                                     ]
                                 },
                                 {
                                     "type": "div",
+                                    "props": {
+                                        "style": {
+                                            "display": "flex",
+                                            "justifyContent": "center"
+                                        }
+                                    },
                                     "children": [
                                         {
                                             "type": "button",
@@ -271,17 +293,23 @@
                                                 "style": {
                                                     "width": "4vh",
                                                     "height": "4vh",
+                                                    "boxSizing": "border-box",
                                                     "margin": "0.3vh",
-                                                    "fontSize": "3vh",
-                                                    "lineHeight": "1",
                                                     "padding": "0",
-                                                    "background": "#ffffff",
-                                                    "color": "#d32f2f",
-                                                    "border": "2px solid #e6c5a5",
-                                                    "cursor": "pointer"
+                                                    "display": "flex",
+                                                    "alignItems": "center",
+                                                    "justifyContent": "center",
+                                                    "fontFamily": "Arial, sans-serif",
+                                                    "fontSize": "2.6vh",
+                                                    "lineHeight": "1",
+                                                    "fontWeight": "bold",
+                                                    "cursor": "pointer",
+                                                    "border": "2px solid #d32f2f",
+                                                    "color": "#ffffff",
+                                                    "background": "{{ game.data.Bomb.r2c1 ? '#d32f2f' : '#ffffff' }}"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r2c1 ? '☑' : '☐' }}",
+                                            "children": "{{ game.data.Bomb.r2c1 ? '✓' : '' }}",
                                             "onClick": "game.data.Bomb.r2c1 = !game.data.Bomb.r2c1"
                                         },
                                         {
@@ -290,17 +318,23 @@
                                                 "style": {
                                                     "width": "4vh",
                                                     "height": "4vh",
+                                                    "boxSizing": "border-box",
                                                     "margin": "0.3vh",
-                                                    "fontSize": "3vh",
-                                                    "lineHeight": "1",
                                                     "padding": "0",
-                                                    "background": "#ffffff",
-                                                    "color": "#d32f2f",
-                                                    "border": "2px solid #e6c5a5",
-                                                    "cursor": "pointer"
+                                                    "display": "flex",
+                                                    "alignItems": "center",
+                                                    "justifyContent": "center",
+                                                    "fontFamily": "Arial, sans-serif",
+                                                    "fontSize": "2.6vh",
+                                                    "lineHeight": "1",
+                                                    "fontWeight": "bold",
+                                                    "cursor": "pointer",
+                                                    "border": "2px solid #d32f2f",
+                                                    "color": "#ffffff",
+                                                    "background": "{{ game.data.Bomb.r2c2 ? '#d32f2f' : '#ffffff' }}"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r2c2 ? '☑' : '☐' }}",
+                                            "children": "{{ game.data.Bomb.r2c2 ? '✓' : '' }}",
                                             "onClick": "game.data.Bomb.r2c2 = !game.data.Bomb.r2c2"
                                         },
                                         {
@@ -309,23 +343,35 @@
                                                 "style": {
                                                     "width": "4vh",
                                                     "height": "4vh",
+                                                    "boxSizing": "border-box",
                                                     "margin": "0.3vh",
-                                                    "fontSize": "3vh",
-                                                    "lineHeight": "1",
                                                     "padding": "0",
-                                                    "background": "#ffffff",
-                                                    "color": "#d32f2f",
-                                                    "border": "2px solid #e6c5a5",
-                                                    "cursor": "pointer"
+                                                    "display": "flex",
+                                                    "alignItems": "center",
+                                                    "justifyContent": "center",
+                                                    "fontFamily": "Arial, sans-serif",
+                                                    "fontSize": "2.6vh",
+                                                    "lineHeight": "1",
+                                                    "fontWeight": "bold",
+                                                    "cursor": "pointer",
+                                                    "border": "2px solid #d32f2f",
+                                                    "color": "#ffffff",
+                                                    "background": "{{ game.data.Bomb.r2c3 ? '#d32f2f' : '#ffffff' }}"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r2c3 ? '☑' : '☐' }}",
+                                            "children": "{{ game.data.Bomb.r2c3 ? '✓' : '' }}",
                                             "onClick": "game.data.Bomb.r2c3 = !game.data.Bomb.r2c3"
                                         }
                                     ]
                                 },
                                 {
                                     "type": "div",
+                                    "props": {
+                                        "style": {
+                                            "display": "flex",
+                                            "justifyContent": "center"
+                                        }
+                                    },
                                     "children": [
                                         {
                                             "type": "button",
@@ -333,17 +379,23 @@
                                                 "style": {
                                                     "width": "4vh",
                                                     "height": "4vh",
+                                                    "boxSizing": "border-box",
                                                     "margin": "0.3vh",
-                                                    "fontSize": "3vh",
-                                                    "lineHeight": "1",
                                                     "padding": "0",
-                                                    "background": "#ffffff",
-                                                    "color": "#d32f2f",
-                                                    "border": "2px solid #e6c5a5",
-                                                    "cursor": "pointer"
+                                                    "display": "flex",
+                                                    "alignItems": "center",
+                                                    "justifyContent": "center",
+                                                    "fontFamily": "Arial, sans-serif",
+                                                    "fontSize": "2.6vh",
+                                                    "lineHeight": "1",
+                                                    "fontWeight": "bold",
+                                                    "cursor": "pointer",
+                                                    "border": "2px solid #d32f2f",
+                                                    "color": "#ffffff",
+                                                    "background": "{{ game.data.Bomb.r3c1 ? '#d32f2f' : '#ffffff' }}"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r3c1 ? '☑' : '☐' }}",
+                                            "children": "{{ game.data.Bomb.r3c1 ? '✓' : '' }}",
                                             "onClick": "game.data.Bomb.r3c1 = !game.data.Bomb.r3c1"
                                         },
                                         {
@@ -352,17 +404,23 @@
                                                 "style": {
                                                     "width": "4vh",
                                                     "height": "4vh",
+                                                    "boxSizing": "border-box",
                                                     "margin": "0.3vh",
-                                                    "fontSize": "3vh",
-                                                    "lineHeight": "1",
                                                     "padding": "0",
-                                                    "background": "#ffffff",
-                                                    "color": "#d32f2f",
-                                                    "border": "2px solid #e6c5a5",
-                                                    "cursor": "pointer"
+                                                    "display": "flex",
+                                                    "alignItems": "center",
+                                                    "justifyContent": "center",
+                                                    "fontFamily": "Arial, sans-serif",
+                                                    "fontSize": "2.6vh",
+                                                    "lineHeight": "1",
+                                                    "fontWeight": "bold",
+                                                    "cursor": "pointer",
+                                                    "border": "2px solid #d32f2f",
+                                                    "color": "#ffffff",
+                                                    "background": "{{ game.data.Bomb.r3c2 ? '#d32f2f' : '#ffffff' }}"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r3c2 ? '☑' : '☐' }}",
+                                            "children": "{{ game.data.Bomb.r3c2 ? '✓' : '' }}",
                                             "onClick": "game.data.Bomb.r3c2 = !game.data.Bomb.r3c2"
                                         },
                                         {
@@ -371,17 +429,23 @@
                                                 "style": {
                                                     "width": "4vh",
                                                     "height": "4vh",
+                                                    "boxSizing": "border-box",
                                                     "margin": "0.3vh",
-                                                    "fontSize": "3vh",
-                                                    "lineHeight": "1",
                                                     "padding": "0",
-                                                    "background": "#ffffff",
-                                                    "color": "#d32f2f",
-                                                    "border": "2px solid #e6c5a5",
-                                                    "cursor": "pointer"
+                                                    "display": "flex",
+                                                    "alignItems": "center",
+                                                    "justifyContent": "center",
+                                                    "fontFamily": "Arial, sans-serif",
+                                                    "fontSize": "2.6vh",
+                                                    "lineHeight": "1",
+                                                    "fontWeight": "bold",
+                                                    "cursor": "pointer",
+                                                    "border": "2px solid #d32f2f",
+                                                    "color": "#ffffff",
+                                                    "background": "{{ game.data.Bomb.r3c3 ? '#d32f2f' : '#ffffff' }}"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r3c3 ? '☑' : '☐' }}",
+                                            "children": "{{ game.data.Bomb.r3c3 ? '✓' : '' }}",
                                             "onClick": "game.data.Bomb.r3c3 = !game.data.Bomb.r3c3"
                                         }
                                     ]
@@ -406,6 +470,11 @@
                             "children": [
                                 {
                                     "type": "div",
+                                    "props": {
+                                        "style": {
+                                            "color": "#000000"
+                                        }
+                                    },
                                     "children": "Puissance"
                                 },
                                 {
@@ -635,14 +704,15 @@
                                     "height": "9vh",
                                     "borderRadius": "50%",
                                     "background": "#ffffff",
-                                    "color": "#000000",
+                                    "color": "#ffffff",
                                     "border": "3px solid #e6c5a5",
                                     "display": "flex",
                                     "flexDirection": "column",
                                     "alignItems": "center",
                                     "justifyContent": "center",
                                     "margin": "0 auto",
-                                    "fontWeight": "bold"
+                                    "fontWeight": "bold",
+                                    "textShadow": "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000"
                                 }
                             },
                             "children": [
@@ -655,7 +725,13 @@
                                     "props": {
                                         "value": "{{ game.data.PV.value }}",
                                         "style": {
-                                            "width": "5vh"
+                                            "width": "5vh",
+                                            "background": "transparent",
+                                            "border": "none",
+                                            "color": "#ffffff",
+                                            "textAlign": "center",
+                                            "fontWeight": "bold",
+                                            "textShadow": "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000"
                                         }
                                     },
                                     "onChange": "game.data.PV.value = Math.max(0, Number(value))"
