@@ -1,0 +1,685 @@
+{
+    "name": "Touhou TCG",
+    "cardRotation": 90,
+    "customHelp": "Grille 3x3 au centre. Unités : jouées épuisées dans la Réserve, puis déployées sur la grille.\nPuissance +1 à chaque tour (max 8) : répartissez-la entre PA et PM.\nPV : départ à 10.",
+    "deckBuilding": {
+        "mainFilters": ["type", "cost", "PP", "element"],
+        "formats": [
+            {
+                "title": "Test (sans règle de deck)",
+                "gameplay": "Standard"
+            },
+            {
+                "title": "Standard (40 cartes)",
+                "gameplay": "Standard",
+                "deckRuleset": "Standard"
+            }
+        ],
+        "deckRulesets": {
+            "Standard": {
+                "general": {
+                    "min": 40,
+                    "max": 40,
+                    "maxPerCard": 3
+                }
+            }
+        }
+    },
+    "gameplay": {
+        "Standard": {
+            "countersStartingValues": [],
+            "mulligan": {
+                "startingHandSize": 5,
+                "mulliganCount": {
+                    "max": 1
+                },
+                "mulliganCycle": {
+                    "info": "Choisissez les cartes à changer.",
+                    "steps": ["toBottom", "draw", "shuffle"],
+                    "selectionRange": {
+                        "min": 0,
+                        "max": 5
+                    }
+                }
+            },
+            "newTurn": {
+                "drawOnStart": true,
+                "drawPerTurn": 1
+            },
+            "sections": {
+                "layout": {
+                    "direction": "row",
+                    "content": [
+                        {
+                            "direction": "column",
+                            "style": {
+                                "width": "30%"
+                            },
+                            "content": [
+                                {
+                                    "section": "ActivePlace"
+                                },
+                                {
+                                    "section": "Reserve"
+                                },
+                                {
+                                    "direction": "column",
+                                    "content": [
+                                        {
+                                            "direction": "row",
+                                            "content": [
+                                                {
+                                                    "section": "Bomb_1_1"
+                                                },
+                                                {
+                                                    "section": "Bomb_1_2"
+                                                },
+                                                {
+                                                    "section": "Bomb_1_3"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "direction": "row",
+                                            "content": [
+                                                {
+                                                    "section": "Bomb_2_1"
+                                                },
+                                                {
+                                                    "section": "Bomb_2_2"
+                                                },
+                                                {
+                                                    "section": "Bomb_2_3"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "direction": "row",
+                                            "content": [
+                                                {
+                                                    "section": "Bomb_3_1"
+                                                },
+                                                {
+                                                    "section": "Bomb_3_2"
+                                                },
+                                                {
+                                                    "section": "Bomb_3_3"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "style": {
+                                        "width": "60%",
+                                        "margin": "0 auto"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "direction": "column",
+                            "style": {
+                                "width": "36%"
+                            },
+                            "content": [
+                                {
+                                    "direction": "column",
+                                    "content": [
+                                        {
+                                            "direction": "row",
+                                            "content": [
+                                                {
+                                                    "section": "Grid_1_1"
+                                                },
+                                                {
+                                                    "section": "Grid_1_2"
+                                                },
+                                                {
+                                                    "section": "Grid_1_3"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "direction": "row",
+                                            "content": [
+                                                {
+                                                    "section": "Grid_2_1"
+                                                },
+                                                {
+                                                    "section": "Grid_2_2"
+                                                },
+                                                {
+                                                    "section": "Grid_2_3"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "direction": "row",
+                                            "content": [
+                                                {
+                                                    "section": "Grid_3_1"
+                                                },
+                                                {
+                                                    "section": "Grid_3_2"
+                                                },
+                                                {
+                                                    "section": "Grid_3_3"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "direction": "column",
+                            "style": {
+                                "width": "34%"
+                            },
+                            "content": [
+                                {
+                                    "section": "Power"
+                                },
+                                {
+                                    "direction": "row",
+                                    "content": [
+                                        {
+                                            "section": "PA"
+                                        },
+                                        {
+                                            "section": "PV"
+                                        },
+                                        {
+                                            "section": "PM"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "section": "MondeExterieur"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "sectionsDict": {
+                    "ActivePlace": {
+                        "isHidden": "no",
+                        "height": 11,
+                        "alignment": "START",
+                        "displayedTitle": "Lieu",
+                        "noAutoPayTo": true
+                    },
+                    "Reserve": {
+                        "isHidden": "no",
+                        "height": 11,
+                        "alignment": "START",
+                        "displayedTitle": "Réserve",
+                        "enterTapped": {
+                            "Unité": true
+                        },
+                        "noAutoPayTo": true
+                    },
+                    "MondeExterieur": {
+                        "isHidden": "no",
+                        "height": 11,
+                        "alignment": "CENTER",
+                        "displayedTitle": "Monde extérieur",
+                        "noAutoPayTo": true
+                    },
+                    "Power": {
+                        "type": "custom",
+                        "defaultValue": {
+                            "value": 0
+                        },
+                        "blueprint": {
+                            "type": "div",
+                            "props": {
+                                "style": {
+                                    "textAlign": "center",
+                                    "color": "#8a5a3a"
+                                }
+                            },
+                            "children": [
+                                {
+                                    "type": "div",
+                                    "children": "Puissance"
+                                },
+                                {
+                                    "type": "div",
+                                    "children": [
+                                        {
+                                            "type": "button",
+                                            "props": {
+                                                "style": {
+                                                    "width": "3.4vh",
+                                                    "height": "3.4vh",
+                                                    "borderRadius": "50%",
+                                                    "border": "2px solid #e6c5a5",
+                                                    "color": "#8a5a3a",
+                                                    "fontSize": "1.8vh",
+                                                    "background": "{{ game.data.Power.value >= 0 ? '#e6c5a5' : '#ffffff' }}",
+                                                    "margin": "0 0.2vh",
+                                                    "padding": "0"
+                                                }
+                                            },
+                                            "children": "0",
+                                            "onClick": "game.data.Power.value = 0"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "props": {
+                                                "style": {
+                                                    "width": "3.4vh",
+                                                    "height": "3.4vh",
+                                                    "borderRadius": "50%",
+                                                    "border": "2px solid #e6c5a5",
+                                                    "color": "#8a5a3a",
+                                                    "fontSize": "1.8vh",
+                                                    "background": "{{ game.data.Power.value >= 1 ? '#e6c5a5' : '#ffffff' }}",
+                                                    "margin": "0 0.2vh",
+                                                    "padding": "0"
+                                                }
+                                            },
+                                            "children": "1",
+                                            "onClick": "game.data.Power.value = 1"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "props": {
+                                                "style": {
+                                                    "width": "3.4vh",
+                                                    "height": "3.4vh",
+                                                    "borderRadius": "50%",
+                                                    "border": "2px solid #e6c5a5",
+                                                    "color": "#8a5a3a",
+                                                    "fontSize": "1.8vh",
+                                                    "background": "{{ game.data.Power.value >= 2 ? '#e6c5a5' : '#ffffff' }}",
+                                                    "margin": "0 0.2vh",
+                                                    "padding": "0"
+                                                }
+                                            },
+                                            "children": "2",
+                                            "onClick": "game.data.Power.value = 2"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "props": {
+                                                "style": {
+                                                    "width": "3.4vh",
+                                                    "height": "3.4vh",
+                                                    "borderRadius": "50%",
+                                                    "border": "2px solid #e6c5a5",
+                                                    "color": "#8a5a3a",
+                                                    "fontSize": "1.8vh",
+                                                    "background": "{{ game.data.Power.value >= 3 ? '#e6c5a5' : '#ffffff' }}",
+                                                    "margin": "0 0.2vh",
+                                                    "padding": "0"
+                                                }
+                                            },
+                                            "children": "3",
+                                            "onClick": "game.data.Power.value = 3"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "props": {
+                                                "style": {
+                                                    "width": "3.4vh",
+                                                    "height": "3.4vh",
+                                                    "borderRadius": "50%",
+                                                    "border": "2px solid #e6c5a5",
+                                                    "color": "#8a5a3a",
+                                                    "fontSize": "1.8vh",
+                                                    "background": "{{ game.data.Power.value >= 4 ? '#e6c5a5' : '#ffffff' }}",
+                                                    "margin": "0 0.2vh",
+                                                    "padding": "0"
+                                                }
+                                            },
+                                            "children": "4",
+                                            "onClick": "game.data.Power.value = 4"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "props": {
+                                                "style": {
+                                                    "width": "3.4vh",
+                                                    "height": "3.4vh",
+                                                    "borderRadius": "50%",
+                                                    "border": "2px solid #e6c5a5",
+                                                    "color": "#8a5a3a",
+                                                    "fontSize": "1.8vh",
+                                                    "background": "{{ game.data.Power.value >= 5 ? '#e6c5a5' : '#ffffff' }}",
+                                                    "margin": "0 0.2vh",
+                                                    "padding": "0"
+                                                }
+                                            },
+                                            "children": "5",
+                                            "onClick": "game.data.Power.value = 5"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "props": {
+                                                "style": {
+                                                    "width": "3.4vh",
+                                                    "height": "3.4vh",
+                                                    "borderRadius": "50%",
+                                                    "border": "2px solid #e6c5a5",
+                                                    "color": "#8a5a3a",
+                                                    "fontSize": "1.8vh",
+                                                    "background": "{{ game.data.Power.value >= 6 ? '#e6c5a5' : '#ffffff' }}",
+                                                    "margin": "0 0.2vh",
+                                                    "padding": "0"
+                                                }
+                                            },
+                                            "children": "6",
+                                            "onClick": "game.data.Power.value = 6"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "props": {
+                                                "style": {
+                                                    "width": "3.4vh",
+                                                    "height": "3.4vh",
+                                                    "borderRadius": "50%",
+                                                    "border": "2px solid #e6c5a5",
+                                                    "color": "#8a5a3a",
+                                                    "fontSize": "1.8vh",
+                                                    "background": "{{ game.data.Power.value >= 7 ? '#e6c5a5' : '#ffffff' }}",
+                                                    "margin": "0 0.2vh",
+                                                    "padding": "0"
+                                                }
+                                            },
+                                            "children": "7",
+                                            "onClick": "game.data.Power.value = 7"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "props": {
+                                                "style": {
+                                                    "width": "3.4vh",
+                                                    "height": "3.4vh",
+                                                    "borderRadius": "50%",
+                                                    "border": "2px solid #e6c5a5",
+                                                    "color": "#8a5a3a",
+                                                    "fontSize": "1.8vh",
+                                                    "background": "{{ game.data.Power.value >= 8 ? '#e6c5a5' : '#ffffff' }}",
+                                                    "margin": "0 0.2vh",
+                                                    "padding": "0"
+                                                }
+                                            },
+                                            "children": "8",
+                                            "onClick": "game.data.Power.value = 8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "div",
+                                    "props": {
+                                        "style": {
+                                            "fontSize": "1.6vh"
+                                        }
+                                    },
+                                    "children": "Répartis : {{ game.data.PA.value + game.data.PM.value }} / {{ game.data.Power.value }}"
+                                }
+                            ]
+                        },
+                        "events": {
+                            "onNewTurn": "if (game.turn.isMyTurn) { game.data.Power.value = Math.min(8, game.data.Power.value + 1); game.data.PA.value = 0; game.data.PM.value = 0; functions.chatLog('Puissance : ' + game.data.Power.value) }"
+                        }
+                    },
+                    "PA": {
+                        "type": "custom",
+                        "defaultValue": {
+                            "value": 0
+                        },
+                        "blueprint": {
+                            "type": "div",
+                            "props": {
+                                "style": {
+                                    "width": "9vh",
+                                    "height": "9vh",
+                                    "borderRadius": "50%",
+                                    "background": "#5b8def",
+                                    "color": "#ffffff",
+                                    "border": "3px solid #e6c5a5",
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "alignItems": "center",
+                                    "justifyContent": "center",
+                                    "margin": "0 auto",
+                                    "fontWeight": "bold"
+                                }
+                            },
+                            "children": [
+                                {
+                                    "type": "span",
+                                    "children": "PA"
+                                },
+                                {
+                                    "type": "input-number",
+                                    "props": {
+                                        "value": "{{ game.data.PA.value }}",
+                                        "style": {
+                                            "width": "5vh"
+                                        }
+                                    },
+                                    "onChange": "game.data.PA.value = Math.max(0, Number(value))"
+                                }
+                            ]
+                        }
+                    },
+                    "PV": {
+                        "type": "custom",
+                        "defaultValue": {
+                            "value": 10
+                        },
+                        "blueprint": {
+                            "type": "div",
+                            "props": {
+                                "style": {
+                                    "width": "9vh",
+                                    "height": "9vh",
+                                    "borderRadius": "50%",
+                                    "background": "#ffffff",
+                                    "color": "#000000",
+                                    "border": "3px solid #e6c5a5",
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "alignItems": "center",
+                                    "justifyContent": "center",
+                                    "margin": "0 auto",
+                                    "fontWeight": "bold"
+                                }
+                            },
+                            "children": [
+                                {
+                                    "type": "span",
+                                    "children": "PV"
+                                },
+                                {
+                                    "type": "input-number",
+                                    "props": {
+                                        "value": "{{ game.data.PV.value }}",
+                                        "style": {
+                                            "width": "5vh"
+                                        }
+                                    },
+                                    "onChange": "game.data.PV.value = Math.max(0, Number(value))"
+                                }
+                            ]
+                        }
+                    },
+                    "PM": {
+                        "type": "custom",
+                        "defaultValue": {
+                            "value": 0
+                        },
+                        "blueprint": {
+                            "type": "div",
+                            "props": {
+                                "style": {
+                                    "width": "9vh",
+                                    "height": "9vh",
+                                    "borderRadius": "50%",
+                                    "background": "#6cbf5a",
+                                    "color": "#ffffff",
+                                    "border": "3px solid #e6c5a5",
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "alignItems": "center",
+                                    "justifyContent": "center",
+                                    "margin": "0 auto",
+                                    "fontWeight": "bold"
+                                }
+                            },
+                            "children": [
+                                {
+                                    "type": "span",
+                                    "children": "PM"
+                                },
+                                {
+                                    "type": "input-number",
+                                    "props": {
+                                        "value": "{{ game.data.PM.value }}",
+                                        "style": {
+                                            "width": "5vh"
+                                        }
+                                    },
+                                    "onChange": "game.data.PM.value = Math.max(0, Number(value))"
+                                }
+                            ]
+                        }
+                    },
+                    "Grid_1_1": {
+                        "isHidden": "no",
+                        "height": 11,
+                        "alignment": "CENTER",
+                        "isGroupForbidden": true,
+                        "noAutoPayTo": true
+                    },
+                    "Bomb_1_1": {
+                        "isHidden": "no",
+                        "height": 4,
+                        "alignment": "CENTER",
+                        "isGroupForbidden": true,
+                        "noAutoPayTo": true
+                    },
+                    "Grid_1_2": {
+                        "isHidden": "no",
+                        "height": 11,
+                        "alignment": "CENTER",
+                        "isGroupForbidden": true,
+                        "noAutoPayTo": true
+                    },
+                    "Bomb_1_2": {
+                        "isHidden": "no",
+                        "height": 4,
+                        "alignment": "CENTER",
+                        "isGroupForbidden": true,
+                        "noAutoPayTo": true
+                    },
+                    "Grid_1_3": {
+                        "isHidden": "no",
+                        "height": 11,
+                        "alignment": "CENTER",
+                        "isGroupForbidden": true,
+                        "noAutoPayTo": true
+                    },
+                    "Bomb_1_3": {
+                        "isHidden": "no",
+                        "height": 4,
+                        "alignment": "CENTER",
+                        "isGroupForbidden": true,
+                        "noAutoPayTo": true
+                    },
+                    "Grid_2_1": {
+                        "isHidden": "no",
+                        "height": 11,
+                        "alignment": "CENTER",
+                        "isGroupForbidden": true,
+                        "noAutoPayTo": true
+                    },
+                    "Bomb_2_1": {
+                        "isHidden": "no",
+                        "height": 4,
+                        "alignment": "CENTER",
+                        "isGroupForbidden": true,
+                        "noAutoPayTo": true
+                    },
+                    "Grid_2_2": {
+                        "isHidden": "no",
+                        "height": 11,
+                        "alignment": "CENTER",
+                        "isGroupForbidden": true,
+                        "noAutoPayTo": true
+                    },
+                    "Bomb_2_2": {
+                        "isHidden": "no",
+                        "height": 4,
+                        "alignment": "CENTER",
+                        "isGroupForbidden": true,
+                        "noAutoPayTo": true
+                    },
+                    "Grid_2_3": {
+                        "isHidden": "no",
+                        "height": 11,
+                        "alignment": "CENTER",
+                        "isGroupForbidden": true,
+                        "noAutoPayTo": true
+                    },
+                    "Bomb_2_3": {
+                        "isHidden": "no",
+                        "height": 4,
+                        "alignment": "CENTER",
+                        "isGroupForbidden": true,
+                        "noAutoPayTo": true
+                    },
+                    "Grid_3_1": {
+                        "isHidden": "no",
+                        "height": 11,
+                        "alignment": "CENTER",
+                        "isGroupForbidden": true,
+                        "noAutoPayTo": true
+                    },
+                    "Bomb_3_1": {
+                        "isHidden": "no",
+                        "height": 4,
+                        "alignment": "CENTER",
+                        "isGroupForbidden": true,
+                        "noAutoPayTo": true
+                    },
+                    "Grid_3_2": {
+                        "isHidden": "no",
+                        "height": 11,
+                        "alignment": "CENTER",
+                        "isGroupForbidden": true,
+                        "noAutoPayTo": true
+                    },
+                    "Bomb_3_2": {
+                        "isHidden": "no",
+                        "height": 4,
+                        "alignment": "CENTER",
+                        "isGroupForbidden": true,
+                        "noAutoPayTo": true
+                    },
+                    "Grid_3_3": {
+                        "isHidden": "no",
+                        "height": 11,
+                        "alignment": "CENTER",
+                        "isGroupForbidden": true,
+                        "noAutoPayTo": true
+                    },
+                    "Bomb_3_3": {
+                        "isHidden": "no",
+                        "height": 4,
+                        "alignment": "CENTER",
+                        "isGroupForbidden": true,
+                        "noAutoPayTo": true
+                    }
+                }
+            }
+        }
+    },
+    "cards": {
+        "dataUrl": "https://enzomoulian.github.io/touhouTCGver5test1/cards.json",
+        "cardBack": "https://enzomoulian.github.io/touhouTCGver5test1/card-back.png"
+    }
+}
