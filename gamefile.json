@@ -138,6 +138,7 @@
                                 {
                                     "direction": "row",
                                     "content": [
+                                        {},
                                         {
                                             "section": "PA"
                                         },
@@ -146,9 +147,11 @@
                                         },
                                         {
                                             "section": "PM"
-                                        }
+                                        },
+                                        {}
                                     ]
-                                }
+                                },
+                                {}
                             ]
                         }
                     ]
@@ -216,10 +219,10 @@
                                                     "fontSize": "2.6vh",
                                                     "lineHeight": "1",
                                                     "cursor": "pointer",
-                                                    "border": "2px solid #d32f2f",
+                                                    "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
-                                                    "background": "{{ game.data.Bomb.r1c1 ? '#d32f2f' : '#ffffff' }}",
-                                                    "color": "#ffffff"
+                                                    "background": "{{ game.data.Bomb.r1c1 ? '#ffffff' : '#000000' }}",
+                                                    "color": "#000000"
                                                 }
                                             },
                                             "children": "{{ game.data.Bomb.r1c1 ? 'O' : '' }}",
@@ -240,10 +243,10 @@
                                                     "fontSize": "2.6vh",
                                                     "lineHeight": "1",
                                                     "cursor": "pointer",
-                                                    "border": "2px solid #d32f2f",
+                                                    "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
-                                                    "background": "{{ game.data.Bomb.r1c2 ? '#d32f2f' : '#ffffff' }}",
-                                                    "color": "#ffffff"
+                                                    "background": "{{ game.data.Bomb.r1c2 ? '#ffffff' : '#000000' }}",
+                                                    "color": "#000000"
                                                 }
                                             },
                                             "children": "{{ game.data.Bomb.r1c2 ? 'O' : '' }}",
@@ -264,10 +267,10 @@
                                                     "fontSize": "2.6vh",
                                                     "lineHeight": "1",
                                                     "cursor": "pointer",
-                                                    "border": "2px solid #d32f2f",
+                                                    "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
-                                                    "background": "{{ game.data.Bomb.r1c3 ? '#d32f2f' : '#ffffff' }}",
-                                                    "color": "#ffffff"
+                                                    "background": "{{ game.data.Bomb.r1c3 ? '#ffffff' : '#000000' }}",
+                                                    "color": "#000000"
                                                 }
                                             },
                                             "children": "{{ game.data.Bomb.r1c3 ? 'O' : '' }}",
@@ -299,10 +302,10 @@
                                                     "fontSize": "2.6vh",
                                                     "lineHeight": "1",
                                                     "cursor": "pointer",
-                                                    "border": "2px solid #d32f2f",
+                                                    "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
-                                                    "background": "{{ game.data.Bomb.r2c1 ? '#d32f2f' : '#ffffff' }}",
-                                                    "color": "#ffffff"
+                                                    "background": "{{ game.data.Bomb.r2c1 ? '#ffffff' : '#000000' }}",
+                                                    "color": "#000000"
                                                 }
                                             },
                                             "children": "{{ game.data.Bomb.r2c1 ? 'O' : '' }}",
@@ -323,10 +326,10 @@
                                                     "fontSize": "2.6vh",
                                                     "lineHeight": "1",
                                                     "cursor": "pointer",
-                                                    "border": "2px solid #d32f2f",
+                                                    "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
-                                                    "background": "{{ game.data.Bomb.r2c2 ? '#d32f2f' : '#ffffff' }}",
-                                                    "color": "#ffffff"
+                                                    "background": "{{ game.data.Bomb.r2c2 ? '#ffffff' : '#000000' }}",
+                                                    "color": "#000000"
                                                 }
                                             },
                                             "children": "{{ game.data.Bomb.r2c2 ? 'O' : '' }}",
@@ -347,10 +350,10 @@
                                                     "fontSize": "2.6vh",
                                                     "lineHeight": "1",
                                                     "cursor": "pointer",
-                                                    "border": "2px solid #d32f2f",
+                                                    "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
-                                                    "background": "{{ game.data.Bomb.r2c3 ? '#d32f2f' : '#ffffff' }}",
-                                                    "color": "#ffffff"
+                                                    "background": "{{ game.data.Bomb.r2c3 ? '#ffffff' : '#000000' }}",
+                                                    "color": "#000000"
                                                 }
                                             },
                                             "children": "{{ game.data.Bomb.r2c3 ? 'O' : '' }}",
@@ -382,10 +385,10 @@
                                                     "fontSize": "2.6vh",
                                                     "lineHeight": "1",
                                                     "cursor": "pointer",
-                                                    "border": "2px solid #d32f2f",
+                                                    "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
-                                                    "background": "{{ game.data.Bomb.r3c1 ? '#d32f2f' : '#ffffff' }}",
-                                                    "color": "#ffffff"
+                                                    "background": "{{ game.data.Bomb.r3c1 ? '#ffffff' : '#000000' }}",
+                                                    "color": "#000000"
                                                 }
                                             },
                                             "children": "{{ game.data.Bomb.r3c1 ? 'O' : '' }}",
@@ -406,10 +409,10 @@
                                                     "fontSize": "2.6vh",
                                                     "lineHeight": "1",
                                                     "cursor": "pointer",
-                                                    "border": "2px solid #d32f2f",
+                                                    "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
-                                                    "background": "{{ game.data.Bomb.r3c2 ? '#d32f2f' : '#ffffff' }}",
-                                                    "color": "#ffffff"
+                                                    "background": "{{ game.data.Bomb.r3c2 ? '#ffffff' : '#000000' }}",
+                                                    "color": "#000000"
                                                 }
                                             },
                                             "children": "{{ game.data.Bomb.r3c2 ? 'O' : '' }}",
@@ -430,10 +433,10 @@
                                                     "fontSize": "2.6vh",
                                                     "lineHeight": "1",
                                                     "cursor": "pointer",
-                                                    "border": "2px solid #d32f2f",
+                                                    "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
-                                                    "background": "{{ game.data.Bomb.r3c3 ? '#d32f2f' : '#ffffff' }}",
-                                                    "color": "#ffffff"
+                                                    "background": "{{ game.data.Bomb.r3c3 ? '#ffffff' : '#000000' }}",
+                                                    "color": "#000000"
                                                 }
                                             },
                                             "children": "{{ game.data.Bomb.r3c3 ? 'O' : '' }}",
@@ -744,7 +747,7 @@
                                     "width": "9vh",
                                     "height": "9vh",
                                     "borderRadius": "50%",
-                                    "background": "#6cbf5a",
+                                    "background": "#000000",
                                     "color": "#ffffff",
                                     "border": "3px solid #000000",
                                     "display": "flex",
