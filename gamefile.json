@@ -1,5 +1,5 @@
 {
-    "name": "Touhou TCG",
+    "name": "Touhou TCG 5 test 1",
     "cardRotation": 90,
     "customHelp": "Grille 3x3 au centre. Unités : jouées épuisées dans la Réserve, puis déployées sur la grille.\nPuissance +1 à chaque tour (max 8) : répartissez-la entre PA et PM.\nPV : départ à 10.",
     "deckBuilding": {
