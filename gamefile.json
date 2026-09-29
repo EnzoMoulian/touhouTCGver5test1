@@ -47,6 +47,14 @@
                 "drawPerTurn": 1
             },
             "sections": {
+                "autoPlayFromHand": {
+                    "Unité": "Reserve",
+                    "Carte de Sort": "stack",
+                    "Lieu": "ActivePlace"
+                },
+                "autoPlayFromStack": {
+                    "Carte de Sort": "Discard"
+                },
                 "layout": {
                     "direction": "row",
                     "content": [
