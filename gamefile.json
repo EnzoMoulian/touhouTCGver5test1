@@ -1,7 +1,7 @@
 {
     "name": "Touhou TCG 5 test 1",
     "cardRotation": 90,
-    "customHelp": "Grille 3x3 au centre. Unités : jouées épuisées dans la Réserve, puis déployées sur la grille.\nPuissance +1 à chaque tour (max 8) : répartissez-la entre PA et PM.\nPV : départ à 10.",
+    "customHelp": "Grille 3x3 au centre. Unités : jouées épuisées dans la Réserve, puis déployées sur la grille.\nPuissance +1 à chaque tour (max 8) : répartissez-la entre PA et PM.\nBombe : cliquez sur une case pour poser ou retirer un fragment.\nPV : départ à 10.",
     "deckBuilding": {
         "mainFilters": ["type", "cost", "PP", "element"],
         "formats": [
@@ -57,61 +57,16 @@
                             },
                             "content": [
                                 {
-                                    "section": "ActivePlace"
+                                    "section": "ActivePlace",
+                                    "style": {
+                                        "width": "45%"
+                                    }
                                 },
                                 {
                                     "section": "Reserve"
                                 },
                                 {
-                                    "direction": "column",
-                                    "content": [
-                                        {
-                                            "direction": "row",
-                                            "content": [
-                                                {
-                                                    "section": "Bomb_1_1"
-                                                },
-                                                {
-                                                    "section": "Bomb_1_2"
-                                                },
-                                                {
-                                                    "section": "Bomb_1_3"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "direction": "row",
-                                            "content": [
-                                                {
-                                                    "section": "Bomb_2_1"
-                                                },
-                                                {
-                                                    "section": "Bomb_2_2"
-                                                },
-                                                {
-                                                    "section": "Bomb_2_3"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "direction": "row",
-                                            "content": [
-                                                {
-                                                    "section": "Bomb_3_1"
-                                                },
-                                                {
-                                                    "section": "Bomb_3_2"
-                                                },
-                                                {
-                                                    "section": "Bomb_3_3"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "style": {
-                                        "width": "60%",
-                                        "margin": "0 auto"
-                                    }
+                                    "section": "Bomb"
                                 }
                             ]
                         },
@@ -194,7 +149,7 @@
                                     ]
                                 },
                                 {
-                                    "section": "MondeExterieur"
+                                    "section": "Remove"
                                 }
                             ]
                         }
@@ -218,12 +173,221 @@
                         },
                         "noAutoPayTo": true
                     },
-                    "MondeExterieur": {
+                    "Remove": {
                         "isHidden": "no",
                         "height": 11,
                         "alignment": "CENTER",
-                        "displayedTitle": "Monde extérieur",
-                        "noAutoPayTo": true
+                        "displayedTitle": "Monde extérieur"
+                    },
+                    "Bomb": {
+                        "type": "custom",
+                        "defaultValue": {
+                            "r1c1": false,
+                            "r1c2": false,
+                            "r1c3": false,
+                            "r2c1": false,
+                            "r2c2": false,
+                            "r2c3": false,
+                            "r3c1": false,
+                            "r3c2": false,
+                            "r3c3": false
+                        },
+                        "blueprint": {
+                            "type": "div",
+                            "props": {
+                                "style": {
+                                    "textAlign": "center"
+                                }
+                            },
+                            "children": [
+                                {
+                                    "type": "div",
+                                    "children": [
+                                        {
+                                            "type": "button",
+                                            "props": {
+                                                "style": {
+                                                    "width": "4vh",
+                                                    "height": "4vh",
+                                                    "margin": "0.3vh",
+                                                    "fontSize": "3vh",
+                                                    "lineHeight": "1",
+                                                    "padding": "0",
+                                                    "background": "#ffffff",
+                                                    "color": "#d32f2f",
+                                                    "border": "2px solid #e6c5a5",
+                                                    "cursor": "pointer"
+                                                }
+                                            },
+                                            "children": "{{ game.data.Bomb.r1c1 ? '☑' : '☐' }}",
+                                            "onClick": "game.data.Bomb.r1c1 = !game.data.Bomb.r1c1"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "props": {
+                                                "style": {
+                                                    "width": "4vh",
+                                                    "height": "4vh",
+                                                    "margin": "0.3vh",
+                                                    "fontSize": "3vh",
+                                                    "lineHeight": "1",
+                                                    "padding": "0",
+                                                    "background": "#ffffff",
+                                                    "color": "#d32f2f",
+                                                    "border": "2px solid #e6c5a5",
+                                                    "cursor": "pointer"
+                                                }
+                                            },
+                                            "children": "{{ game.data.Bomb.r1c2 ? '☑' : '☐' }}",
+                                            "onClick": "game.data.Bomb.r1c2 = !game.data.Bomb.r1c2"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "props": {
+                                                "style": {
+                                                    "width": "4vh",
+                                                    "height": "4vh",
+                                                    "margin": "0.3vh",
+                                                    "fontSize": "3vh",
+                                                    "lineHeight": "1",
+                                                    "padding": "0",
+                                                    "background": "#ffffff",
+                                                    "color": "#d32f2f",
+                                                    "border": "2px solid #e6c5a5",
+                                                    "cursor": "pointer"
+                                                }
+                                            },
+                                            "children": "{{ game.data.Bomb.r1c3 ? '☑' : '☐' }}",
+                                            "onClick": "game.data.Bomb.r1c3 = !game.data.Bomb.r1c3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "div",
+                                    "children": [
+                                        {
+                                            "type": "button",
+                                            "props": {
+                                                "style": {
+                                                    "width": "4vh",
+                                                    "height": "4vh",
+                                                    "margin": "0.3vh",
+                                                    "fontSize": "3vh",
+                                                    "lineHeight": "1",
+                                                    "padding": "0",
+                                                    "background": "#ffffff",
+                                                    "color": "#d32f2f",
+                                                    "border": "2px solid #e6c5a5",
+                                                    "cursor": "pointer"
+                                                }
+                                            },
+                                            "children": "{{ game.data.Bomb.r2c1 ? '☑' : '☐' }}",
+                                            "onClick": "game.data.Bomb.r2c1 = !game.data.Bomb.r2c1"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "props": {
+                                                "style": {
+                                                    "width": "4vh",
+                                                    "height": "4vh",
+                                                    "margin": "0.3vh",
+                                                    "fontSize": "3vh",
+                                                    "lineHeight": "1",
+                                                    "padding": "0",
+                                                    "background": "#ffffff",
+                                                    "color": "#d32f2f",
+                                                    "border": "2px solid #e6c5a5",
+                                                    "cursor": "pointer"
+                                                }
+                                            },
+                                            "children": "{{ game.data.Bomb.r2c2 ? '☑' : '☐' }}",
+                                            "onClick": "game.data.Bomb.r2c2 = !game.data.Bomb.r2c2"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "props": {
+                                                "style": {
+                                                    "width": "4vh",
+                                                    "height": "4vh",
+                                                    "margin": "0.3vh",
+                                                    "fontSize": "3vh",
+                                                    "lineHeight": "1",
+                                                    "padding": "0",
+                                                    "background": "#ffffff",
+                                                    "color": "#d32f2f",
+                                                    "border": "2px solid #e6c5a5",
+                                                    "cursor": "pointer"
+                                                }
+                                            },
+                                            "children": "{{ game.data.Bomb.r2c3 ? '☑' : '☐' }}",
+                                            "onClick": "game.data.Bomb.r2c3 = !game.data.Bomb.r2c3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "div",
+                                    "children": [
+                                        {
+                                            "type": "button",
+                                            "props": {
+                                                "style": {
+                                                    "width": "4vh",
+                                                    "height": "4vh",
+                                                    "margin": "0.3vh",
+                                                    "fontSize": "3vh",
+                                                    "lineHeight": "1",
+                                                    "padding": "0",
+                                                    "background": "#ffffff",
+                                                    "color": "#d32f2f",
+                                                    "border": "2px solid #e6c5a5",
+                                                    "cursor": "pointer"
+                                                }
+                                            },
+                                            "children": "{{ game.data.Bomb.r3c1 ? '☑' : '☐' }}",
+                                            "onClick": "game.data.Bomb.r3c1 = !game.data.Bomb.r3c1"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "props": {
+                                                "style": {
+                                                    "width": "4vh",
+                                                    "height": "4vh",
+                                                    "margin": "0.3vh",
+                                                    "fontSize": "3vh",
+                                                    "lineHeight": "1",
+                                                    "padding": "0",
+                                                    "background": "#ffffff",
+                                                    "color": "#d32f2f",
+                                                    "border": "2px solid #e6c5a5",
+                                                    "cursor": "pointer"
+                                                }
+                                            },
+                                            "children": "{{ game.data.Bomb.r3c2 ? '☑' : '☐' }}",
+                                            "onClick": "game.data.Bomb.r3c2 = !game.data.Bomb.r3c2"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "props": {
+                                                "style": {
+                                                    "width": "4vh",
+                                                    "height": "4vh",
+                                                    "margin": "0.3vh",
+                                                    "fontSize": "3vh",
+                                                    "lineHeight": "1",
+                                                    "padding": "0",
+                                                    "background": "#ffffff",
+                                                    "color": "#d32f2f",
+                                                    "border": "2px solid #e6c5a5",
+                                                    "cursor": "pointer"
+                                                }
+                                            },
+                                            "children": "{{ game.data.Bomb.r3c3 ? '☑' : '☐' }}",
+                                            "onClick": "game.data.Bomb.r3c3 = !game.data.Bomb.r3c3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
                     },
                     "Power": {
                         "type": "custom",
@@ -235,7 +399,8 @@
                             "props": {
                                 "style": {
                                     "textAlign": "center",
-                                    "color": "#8a5a3a"
+                                    "color": "#d32f2f",
+                                    "fontWeight": "bold"
                                 }
                             },
                             "children": [
@@ -253,12 +418,12 @@
                                                     "width": "3.4vh",
                                                     "height": "3.4vh",
                                                     "borderRadius": "50%",
-                                                    "border": "2px solid #e6c5a5",
-                                                    "color": "#8a5a3a",
+                                                    "border": "2px solid #d32f2f",
                                                     "fontSize": "1.8vh",
-                                                    "background": "{{ game.data.Power.value >= 0 ? '#e6c5a5' : '#ffffff' }}",
                                                     "margin": "0 0.2vh",
-                                                    "padding": "0"
+                                                    "padding": "0",
+                                                    "background": "{{ game.data.Power.value >= 0 ? '#d32f2f' : '#ffffff' }}",
+                                                    "color": "{{ game.data.Power.value >= 0 ? '#ffffff' : '#d32f2f' }}"
                                                 }
                                             },
                                             "children": "0",
@@ -271,12 +436,12 @@
                                                     "width": "3.4vh",
                                                     "height": "3.4vh",
                                                     "borderRadius": "50%",
-                                                    "border": "2px solid #e6c5a5",
-                                                    "color": "#8a5a3a",
+                                                    "border": "2px solid #d32f2f",
                                                     "fontSize": "1.8vh",
-                                                    "background": "{{ game.data.Power.value >= 1 ? '#e6c5a5' : '#ffffff' }}",
                                                     "margin": "0 0.2vh",
-                                                    "padding": "0"
+                                                    "padding": "0",
+                                                    "background": "{{ game.data.Power.value >= 1 ? '#d32f2f' : '#ffffff' }}",
+                                                    "color": "{{ game.data.Power.value >= 1 ? '#ffffff' : '#d32f2f' }}"
                                                 }
                                             },
                                             "children": "1",
@@ -289,12 +454,12 @@
                                                     "width": "3.4vh",
                                                     "height": "3.4vh",
                                                     "borderRadius": "50%",
-                                                    "border": "2px solid #e6c5a5",
-                                                    "color": "#8a5a3a",
+                                                    "border": "2px solid #d32f2f",
                                                     "fontSize": "1.8vh",
-                                                    "background": "{{ game.data.Power.value >= 2 ? '#e6c5a5' : '#ffffff' }}",
                                                     "margin": "0 0.2vh",
-                                                    "padding": "0"
+                                                    "padding": "0",
+                                                    "background": "{{ game.data.Power.value >= 2 ? '#d32f2f' : '#ffffff' }}",
+                                                    "color": "{{ game.data.Power.value >= 2 ? '#ffffff' : '#d32f2f' }}"
                                                 }
                                             },
                                             "children": "2",
@@ -307,12 +472,12 @@
                                                     "width": "3.4vh",
                                                     "height": "3.4vh",
                                                     "borderRadius": "50%",
-                                                    "border": "2px solid #e6c5a5",
-                                                    "color": "#8a5a3a",
+                                                    "border": "2px solid #d32f2f",
                                                     "fontSize": "1.8vh",
-                                                    "background": "{{ game.data.Power.value >= 3 ? '#e6c5a5' : '#ffffff' }}",
                                                     "margin": "0 0.2vh",
-                                                    "padding": "0"
+                                                    "padding": "0",
+                                                    "background": "{{ game.data.Power.value >= 3 ? '#d32f2f' : '#ffffff' }}",
+                                                    "color": "{{ game.data.Power.value >= 3 ? '#ffffff' : '#d32f2f' }}"
                                                 }
                                             },
                                             "children": "3",
@@ -325,12 +490,12 @@
                                                     "width": "3.4vh",
                                                     "height": "3.4vh",
                                                     "borderRadius": "50%",
-                                                    "border": "2px solid #e6c5a5",
-                                                    "color": "#8a5a3a",
+                                                    "border": "2px solid #d32f2f",
                                                     "fontSize": "1.8vh",
-                                                    "background": "{{ game.data.Power.value >= 4 ? '#e6c5a5' : '#ffffff' }}",
                                                     "margin": "0 0.2vh",
-                                                    "padding": "0"
+                                                    "padding": "0",
+                                                    "background": "{{ game.data.Power.value >= 4 ? '#d32f2f' : '#ffffff' }}",
+                                                    "color": "{{ game.data.Power.value >= 4 ? '#ffffff' : '#d32f2f' }}"
                                                 }
                                             },
                                             "children": "4",
@@ -343,12 +508,12 @@
                                                     "width": "3.4vh",
                                                     "height": "3.4vh",
                                                     "borderRadius": "50%",
-                                                    "border": "2px solid #e6c5a5",
-                                                    "color": "#8a5a3a",
+                                                    "border": "2px solid #d32f2f",
                                                     "fontSize": "1.8vh",
-                                                    "background": "{{ game.data.Power.value >= 5 ? '#e6c5a5' : '#ffffff' }}",
                                                     "margin": "0 0.2vh",
-                                                    "padding": "0"
+                                                    "padding": "0",
+                                                    "background": "{{ game.data.Power.value >= 5 ? '#d32f2f' : '#ffffff' }}",
+                                                    "color": "{{ game.data.Power.value >= 5 ? '#ffffff' : '#d32f2f' }}"
                                                 }
                                             },
                                             "children": "5",
@@ -361,12 +526,12 @@
                                                     "width": "3.4vh",
                                                     "height": "3.4vh",
                                                     "borderRadius": "50%",
-                                                    "border": "2px solid #e6c5a5",
-                                                    "color": "#8a5a3a",
+                                                    "border": "2px solid #d32f2f",
                                                     "fontSize": "1.8vh",
-                                                    "background": "{{ game.data.Power.value >= 6 ? '#e6c5a5' : '#ffffff' }}",
                                                     "margin": "0 0.2vh",
-                                                    "padding": "0"
+                                                    "padding": "0",
+                                                    "background": "{{ game.data.Power.value >= 6 ? '#d32f2f' : '#ffffff' }}",
+                                                    "color": "{{ game.data.Power.value >= 6 ? '#ffffff' : '#d32f2f' }}"
                                                 }
                                             },
                                             "children": "6",
@@ -379,12 +544,12 @@
                                                     "width": "3.4vh",
                                                     "height": "3.4vh",
                                                     "borderRadius": "50%",
-                                                    "border": "2px solid #e6c5a5",
-                                                    "color": "#8a5a3a",
+                                                    "border": "2px solid #d32f2f",
                                                     "fontSize": "1.8vh",
-                                                    "background": "{{ game.data.Power.value >= 7 ? '#e6c5a5' : '#ffffff' }}",
                                                     "margin": "0 0.2vh",
-                                                    "padding": "0"
+                                                    "padding": "0",
+                                                    "background": "{{ game.data.Power.value >= 7 ? '#d32f2f' : '#ffffff' }}",
+                                                    "color": "{{ game.data.Power.value >= 7 ? '#ffffff' : '#d32f2f' }}"
                                                 }
                                             },
                                             "children": "7",
@@ -397,27 +562,18 @@
                                                     "width": "3.4vh",
                                                     "height": "3.4vh",
                                                     "borderRadius": "50%",
-                                                    "border": "2px solid #e6c5a5",
-                                                    "color": "#8a5a3a",
+                                                    "border": "2px solid #d32f2f",
                                                     "fontSize": "1.8vh",
-                                                    "background": "{{ game.data.Power.value >= 8 ? '#e6c5a5' : '#ffffff' }}",
                                                     "margin": "0 0.2vh",
-                                                    "padding": "0"
+                                                    "padding": "0",
+                                                    "background": "{{ game.data.Power.value >= 8 ? '#d32f2f' : '#ffffff' }}",
+                                                    "color": "{{ game.data.Power.value >= 8 ? '#ffffff' : '#d32f2f' }}"
                                                 }
                                             },
                                             "children": "8",
                                             "onClick": "game.data.Power.value = 8"
                                         }
                                     ]
-                                },
-                                {
-                                    "type": "div",
-                                    "props": {
-                                        "style": {
-                                            "fontSize": "1.6vh"
-                                        }
-                                    },
-                                    "children": "Répartis : {{ game.data.PA.value + game.data.PM.value }} / {{ game.data.Power.value }}"
                                 }
                             ]
                         },
@@ -555,23 +711,9 @@
                         "isGroupForbidden": true,
                         "noAutoPayTo": true
                     },
-                    "Bomb_1_1": {
-                        "isHidden": "no",
-                        "height": 4,
-                        "alignment": "CENTER",
-                        "isGroupForbidden": true,
-                        "noAutoPayTo": true
-                    },
                     "Grid_1_2": {
                         "isHidden": "no",
                         "height": 11,
-                        "alignment": "CENTER",
-                        "isGroupForbidden": true,
-                        "noAutoPayTo": true
-                    },
-                    "Bomb_1_2": {
-                        "isHidden": "no",
-                        "height": 4,
                         "alignment": "CENTER",
                         "isGroupForbidden": true,
                         "noAutoPayTo": true
@@ -583,23 +725,9 @@
                         "isGroupForbidden": true,
                         "noAutoPayTo": true
                     },
-                    "Bomb_1_3": {
-                        "isHidden": "no",
-                        "height": 4,
-                        "alignment": "CENTER",
-                        "isGroupForbidden": true,
-                        "noAutoPayTo": true
-                    },
                     "Grid_2_1": {
                         "isHidden": "no",
                         "height": 11,
-                        "alignment": "CENTER",
-                        "isGroupForbidden": true,
-                        "noAutoPayTo": true
-                    },
-                    "Bomb_2_1": {
-                        "isHidden": "no",
-                        "height": 4,
                         "alignment": "CENTER",
                         "isGroupForbidden": true,
                         "noAutoPayTo": true
@@ -611,23 +739,9 @@
                         "isGroupForbidden": true,
                         "noAutoPayTo": true
                     },
-                    "Bomb_2_2": {
-                        "isHidden": "no",
-                        "height": 4,
-                        "alignment": "CENTER",
-                        "isGroupForbidden": true,
-                        "noAutoPayTo": true
-                    },
                     "Grid_2_3": {
                         "isHidden": "no",
                         "height": 11,
-                        "alignment": "CENTER",
-                        "isGroupForbidden": true,
-                        "noAutoPayTo": true
-                    },
-                    "Bomb_2_3": {
-                        "isHidden": "no",
-                        "height": 4,
                         "alignment": "CENTER",
                         "isGroupForbidden": true,
                         "noAutoPayTo": true
@@ -639,23 +753,9 @@
                         "isGroupForbidden": true,
                         "noAutoPayTo": true
                     },
-                    "Bomb_3_1": {
-                        "isHidden": "no",
-                        "height": 4,
-                        "alignment": "CENTER",
-                        "isGroupForbidden": true,
-                        "noAutoPayTo": true
-                    },
                     "Grid_3_2": {
                         "isHidden": "no",
                         "height": 11,
-                        "alignment": "CENTER",
-                        "isGroupForbidden": true,
-                        "noAutoPayTo": true
-                    },
-                    "Bomb_3_2": {
-                        "isHidden": "no",
-                        "height": 4,
                         "alignment": "CENTER",
                         "isGroupForbidden": true,
                         "noAutoPayTo": true
@@ -666,13 +766,6 @@
                         "alignment": "CENTER",
                         "isGroupForbidden": true,
                         "noAutoPayTo": true
-                    },
-                    "Bomb_3_3": {
-                        "isHidden": "no",
-                        "height": 4,
-                        "alignment": "CENTER",
-                        "isGroupForbidden": true,
-                        "noAutoPayTo": true
                     }
                 }
             }
@@ -680,6 +773,9 @@
     },
     "cards": {
         "dataUrl": "https://enzomoulian.github.io/touhouTCGver5test1/cards.json",
-        "cardBack": "https://enzomoulian.github.io/touhouTCGver5test1/card-back.png"
+        "cardBack": "https://enzomoulian.github.io/touhouTCGver5test1/back-cards.png",
+        "extraCardBacks": {
+            "Héroïne": "https://enzomoulian.github.io/touhouTCGver5test1/back-heroine.png"
+        }
     }
 }
