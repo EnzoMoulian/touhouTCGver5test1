@@ -48,14 +48,14 @@
             },
             "sections": {
                 "autoPlayFromHand": {
-                    "Unité": "Reserve",
-                    "Carte de sort": "stack",
-                    "Lieu": "ActivePlace"
+                    "Unités": "Reserve",
+                    "Cartes de sort": "stack",
+                    "Lieux": "ActivePlace"
                 },
                 "autoPlayFromStack": {
-                    "Unité": "Reserve",
-                    "Carte de sort": "Discard",
-                    "Lieu": "ActivePlace"
+                    "Unités": "Reserve",
+                    "Cartes de sort": "Discard",
+                    "Lieux": "ActivePlace"
                 },
                 "layout": {
                     "direction": "row",

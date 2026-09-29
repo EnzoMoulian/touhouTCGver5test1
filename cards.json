@@ -4,13 +4,13 @@
         "face": {
             "front": {
                 "name": { "name": "Saki Kurokoma" },
-                "type": "Unité",
+                "type": "Unités",
                 "cost": 1,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-001.png"
             }
         },
         "name": "Saki Kurokoma",
-        "type": "Unité",
+        "type": "Unités",
         "cost": 1,
         "PP": 4,
         "tags": ["Bête", "Clan Keiga"],
@@ -22,13 +22,13 @@
         "face": {
             "front": {
                 "name": { "name": "Flandre Scarlet" },
-                "type": "Unité",
+                "type": "Unités",
                 "cost": 3,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-002.png"
             }
         },
         "name": "Flandre Scarlet",
-        "type": "Unité",
+        "type": "Unités",
         "cost": 3,
         "PP": 7,
         "tags": ["Démon", "Vampire"],
@@ -40,13 +40,13 @@
         "face": {
             "front": {
                 "name": { "name": "Yuugi Hoshiguma" },
-                "type": "Unité",
+                "type": "Unités",
                 "cost": 2,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-003.png"
             }
         },
         "name": "Yuugi Hoshiguma",
-        "type": "Unité",
+        "type": "Unités",
         "cost": 2,
         "PP": 4,
         "tags": ["Démon", "Bagarreur"],
@@ -58,13 +58,13 @@
         "face": {
             "front": {
                 "name": { "name": "Enoko Mitsugashira" },
-                "type": "Unité",
+                "type": "Unités",
                 "cost": 1,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-004.png"
             }
         },
         "name": "Enoko Mitsugashira",
-        "type": "Unité",
+        "type": "Unités",
         "cost": 1,
         "PP": 1,
         "tags": ["Animal", "Vassal", "Clan Keiga"],
@@ -78,13 +78,13 @@
                 "name": {
                     "name": "Technique Fulgurante « Hennissement Foudrouyant »"
                 },
-                "type": "Carte de sort",
+                "type": "Cartes de sort",
                 "cost": 1,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-005.png"
             }
         },
         "name": "Technique Fulgurante « Hennissement Foudrouyant »",
-        "type": "Carte de sort",
+        "type": "Cartes de sort",
         "cost": 1,
         "PP": 3,
         "tags": ["Art"],
