@@ -14,7 +14,8 @@
         "cost": 1,
         "PP": 4,
         "tags": ["Bête", "Clan Keiga"],
-        "element": "Feu"
+        "element": "Feu",
+        "isHorizontal": "false"
     },
     "tst-002": {
         "id": "tst-002",
@@ -31,6 +32,63 @@
         "cost": 3,
         "PP": 7,
         "tags": ["Démon", "Vampire"],
-        "element": "Feu"
+        "element": "Feu",
+        "isHorizontal": "false"
+    },
+    "tst-003": {
+        "id": "tst-003",
+        "face": {
+            "front": {
+                "name": { "name": "Yuugi Hoshiguma" },
+                "type": "Unité",
+                "cost": 2,
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-003.png"
+            }
+        },
+        "name": "Flandre Scarlet",
+        "type": "Unité",
+        "cost": 2,
+        "PP": 4,
+        "tags": ["Démon", "Bagarreur"],
+        "element": "Feu",
+        "isHorizontal": "false"
+    },
+    "tst-004": {
+        "id": "tst-004",
+        "face": {
+            "front": {
+                "name": { "name": "Enoko Mitsugashira" },
+                "type": "Unité",
+                "cost": 1,
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-004.png"
+            }
+        },
+        "name": "Flandre Scarlet",
+        "type": "Unité",
+        "cost": 1,
+        "PP": 1,
+        "tags": ["Animal", "Vassal", "Clan Keiga"],
+        "element": "Feu",
+        "isHorizontal": "false"
+    },
+    "tst-005": {
+        "id": "tst-005",
+        "face": {
+            "front": {
+                "name": {
+                    "name": "Technique Fulgurante « Hennissement Foudrouyant »"
+                },
+                "type": "Carte de sort",
+                "cost": 1,
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-005.png"
+            }
+        },
+        "name": "Flandre Scarlet",
+        "type": "Carte de sort",
+        "cost": 1,
+        "PP": 3,
+        "tags": ["Art"],
+        "element": "Feu",
+        "isHorizontal": "false"
     }
 }

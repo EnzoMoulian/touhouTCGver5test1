@@ -49,11 +49,11 @@
             "sections": {
                 "autoPlayFromHand": {
                     "Unité": "Reserve",
-                    "Carte de Sort": "stack",
+                    "Carte de sort": "stack",
                     "Lieu": "ActivePlace"
                 },
                 "autoPlayFromStack": {
-                    "Carte de Sort": "Discard"
+                    "Carte de sort": "Discard"
                 },
                 "layout": {
                     "direction": "row",
