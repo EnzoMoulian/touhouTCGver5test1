@@ -228,11 +228,10 @@
                                                     "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
                                                     "background": "{{ game.data.Bomb.r1c1 ? '#ffffff' : '#000000' }}",
-                                                    "color": "#000000",
-                                                    "fontWeight": "bold"
+                                                    "color": "#000000"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r1c1 ? 'O' : '' }}",
+                                            "children": "{{ game.data.Bomb.r1c1 ? '💥' : '' }}",
                                             "onClick": "game.data.Bomb.r1c1 = !game.data.Bomb.r1c1"
                                         },
                                         {
@@ -253,11 +252,10 @@
                                                     "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
                                                     "background": "{{ game.data.Bomb.r1c2 ? '#ffffff' : '#000000' }}",
-                                                    "color": "#000000",
-                                                    "fontWeight": "bold"
+                                                    "color": "#000000"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r1c2 ? 'O' : '' }}",
+                                            "children": "{{ game.data.Bomb.r1c2 ? '💥' : '' }}",
                                             "onClick": "game.data.Bomb.r1c2 = !game.data.Bomb.r1c2"
                                         },
                                         {
@@ -278,11 +276,10 @@
                                                     "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
                                                     "background": "{{ game.data.Bomb.r1c3 ? '#ffffff' : '#000000' }}",
-                                                    "color": "#000000",
-                                                    "fontWeight": "bold"
+                                                    "color": "#000000"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r1c3 ? 'O' : '' }}",
+                                            "children": "{{ game.data.Bomb.r1c3 ? '💥' : '' }}",
                                             "onClick": "game.data.Bomb.r1c3 = !game.data.Bomb.r1c3"
                                         }
                                     ]
@@ -314,11 +311,10 @@
                                                     "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
                                                     "background": "{{ game.data.Bomb.r2c1 ? '#ffffff' : '#000000' }}",
-                                                    "color": "#000000",
-                                                    "fontWeight": "bold"
+                                                    "color": "#000000"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r2c1 ? 'O' : '' }}",
+                                            "children": "{{ game.data.Bomb.r2c1 ? '💥' : '' }}",
                                             "onClick": "game.data.Bomb.r2c1 = !game.data.Bomb.r2c1"
                                         },
                                         {
@@ -339,11 +335,10 @@
                                                     "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
                                                     "background": "{{ game.data.Bomb.r2c2 ? '#ffffff' : '#000000' }}",
-                                                    "color": "#000000",
-                                                    "fontWeight": "bold"
+                                                    "color": "#000000"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r2c2 ? 'O' : '' }}",
+                                            "children": "{{ game.data.Bomb.r2c2 ? '💥' : '' }}",
                                             "onClick": "game.data.Bomb.r2c2 = !game.data.Bomb.r2c2"
                                         },
                                         {
@@ -364,11 +359,10 @@
                                                     "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
                                                     "background": "{{ game.data.Bomb.r2c3 ? '#ffffff' : '#000000' }}",
-                                                    "color": "#000000",
-                                                    "fontWeight": "bold"
+                                                    "color": "#000000"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r2c3 ? 'O' : '' }}",
+                                            "children": "{{ game.data.Bomb.r2c3 ? '💥' : '' }}",
                                             "onClick": "game.data.Bomb.r2c3 = !game.data.Bomb.r2c3"
                                         }
                                     ]
@@ -400,11 +394,10 @@
                                                     "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
                                                     "background": "{{ game.data.Bomb.r3c1 ? '#ffffff' : '#000000' }}",
-                                                    "color": "#000000",
-                                                    "fontWeight": "bold"
+                                                    "color": "#000000"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r3c1 ? 'O' : '' }}",
+                                            "children": "{{ game.data.Bomb.r3c1 ? '💥' : '' }}",
                                             "onClick": "game.data.Bomb.r3c1 = !game.data.Bomb.r3c1"
                                         },
                                         {
@@ -425,11 +418,10 @@
                                                     "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
                                                     "background": "{{ game.data.Bomb.r3c2 ? '#ffffff' : '#000000' }}",
-                                                    "color": "#000000",
-                                                    "fontWeight": "bold"
+                                                    "color": "#000000"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r3c2 ? 'O' : '' }}",
+                                            "children": "{{ game.data.Bomb.r3c2 ? '💥' : '' }}",
                                             "onClick": "game.data.Bomb.r3c2 = !game.data.Bomb.r3c2"
                                         },
                                         {
@@ -450,11 +442,10 @@
                                                     "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
                                                     "background": "{{ game.data.Bomb.r3c3 ? '#ffffff' : '#000000' }}",
-                                                    "color": "#000000",
-                                                    "fontWeight": "bold"
+                                                    "color": "#000000"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r3c3 ? 'O' : '' }}",
+                                            "children": "{{ game.data.Bomb.r3c3 ? '💥' : '' }}",
                                             "onClick": "game.data.Bomb.r3c3 = !game.data.Bomb.r3c3"
                                         }
                                     ]
@@ -668,8 +659,8 @@
                             "type": "div",
                             "props": {
                                 "style": {
-                                    "width": "9vh",
-                                    "height": "9vh",
+                                    "width": "8vh",
+                                    "height": "8vh",
                                     "borderRadius": "50%",
                                     "background": "#5b8def",
                                     "color": "#ffffff",
@@ -723,8 +714,7 @@
                                     "alignItems": "center",
                                     "justifyContent": "center",
                                     "margin": "0 auto",
-                                    "fontWeight": "bold",
-                                    "textShadow": "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000"
+                                    "fontWeight": "bold"
                                 }
                             },
                             "children": [
@@ -757,8 +747,8 @@
                             "type": "div",
                             "props": {
                                 "style": {
-                                    "width": "9vh",
-                                    "height": "9vh",
+                                    "width": "8vh",
+                                    "height": "8vh",
                                     "borderRadius": "50%",
                                     "background": "#6bbd59",
                                     "color": "#ffffff",
@@ -796,6 +786,7 @@
                         "isHidden": "no",
                         "height": 11,
                         "alignment": "CENTER",
+                        "displayedTitle": "",
                         "isGroupForbidden": true,
                         "noAutoPayTo": true
                     },
@@ -803,6 +794,7 @@
                         "isHidden": "no",
                         "height": 11,
                         "alignment": "CENTER",
+                        "displayedTitle": "",
                         "isGroupForbidden": true,
                         "noAutoPayTo": true
                     },
@@ -810,6 +802,7 @@
                         "isHidden": "no",
                         "height": 11,
                         "alignment": "CENTER",
+                        "displayedTitle": "",
                         "isGroupForbidden": true,
                         "noAutoPayTo": true
                     },
@@ -817,6 +810,7 @@
                         "isHidden": "no",
                         "height": 11,
                         "alignment": "CENTER",
+                        "displayedTitle": "",
                         "isGroupForbidden": true,
                         "noAutoPayTo": true
                     },
@@ -824,6 +818,7 @@
                         "isHidden": "no",
                         "height": 11,
                         "alignment": "CENTER",
+                        "displayedTitle": "",
                         "isGroupForbidden": true,
                         "noAutoPayTo": true
                     },
@@ -831,6 +826,7 @@
                         "isHidden": "no",
                         "height": 11,
                         "alignment": "CENTER",
+                        "displayedTitle": "",
                         "isGroupForbidden": true,
                         "noAutoPayTo": true
                     },
@@ -838,6 +834,7 @@
                         "isHidden": "no",
                         "height": 11,
                         "alignment": "CENTER",
+                        "displayedTitle": "",
                         "isGroupForbidden": true,
                         "noAutoPayTo": true
                     },
@@ -845,6 +842,7 @@
                         "isHidden": "no",
                         "height": 11,
                         "alignment": "CENTER",
+                        "displayedTitle": "",
                         "isGroupForbidden": true,
                         "noAutoPayTo": true
                     },
@@ -852,6 +850,7 @@
                         "isHidden": "no",
                         "height": 11,
                         "alignment": "CENTER",
+                        "displayedTitle": "",
                         "isGroupForbidden": true,
                         "noAutoPayTo": true
                     },
