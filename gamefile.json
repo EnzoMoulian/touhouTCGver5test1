@@ -53,7 +53,9 @@
                     "Lieu": "ActivePlace"
                 },
                 "autoPlayFromStack": {
-                    "Carte de sort": "Discard"
+                    "Unité": "Reserve",
+                    "Carte de sort": "Discard",
+                    "Lieu": "ActivePlace"
                 },
                 "layout": {
                     "direction": "row",
