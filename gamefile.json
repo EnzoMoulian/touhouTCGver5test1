@@ -228,7 +228,8 @@
                                                     "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
                                                     "background": "{{ game.data.Bomb.r1c1 ? '#ffffff' : '#000000' }}",
-                                                    "color": "#000000"
+                                                    "color": "#000000",
+                                                    "fontWeight": "bold"
                                                 }
                                             },
                                             "children": "{{ game.data.Bomb.r1c1 ? 'O' : '' }}",
@@ -252,7 +253,8 @@
                                                     "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
                                                     "background": "{{ game.data.Bomb.r1c2 ? '#ffffff' : '#000000' }}",
-                                                    "color": "#000000"
+                                                    "color": "#000000",
+                                                    "fontWeight": "bold"
                                                 }
                                             },
                                             "children": "{{ game.data.Bomb.r1c2 ? 'O' : '' }}",
@@ -276,7 +278,8 @@
                                                     "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
                                                     "background": "{{ game.data.Bomb.r1c3 ? '#ffffff' : '#000000' }}",
-                                                    "color": "#000000"
+                                                    "color": "#000000",
+                                                    "fontWeight": "bold"
                                                 }
                                             },
                                             "children": "{{ game.data.Bomb.r1c3 ? 'O' : '' }}",
@@ -311,7 +314,8 @@
                                                     "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
                                                     "background": "{{ game.data.Bomb.r2c1 ? '#ffffff' : '#000000' }}",
-                                                    "color": "#000000"
+                                                    "color": "#000000",
+                                                    "fontWeight": "bold"
                                                 }
                                             },
                                             "children": "{{ game.data.Bomb.r2c1 ? 'O' : '' }}",
@@ -335,7 +339,8 @@
                                                     "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
                                                     "background": "{{ game.data.Bomb.r2c2 ? '#ffffff' : '#000000' }}",
-                                                    "color": "#000000"
+                                                    "color": "#000000",
+                                                    "fontWeight": "bold"
                                                 }
                                             },
                                             "children": "{{ game.data.Bomb.r2c2 ? 'O' : '' }}",
@@ -359,7 +364,8 @@
                                                     "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
                                                     "background": "{{ game.data.Bomb.r2c3 ? '#ffffff' : '#000000' }}",
-                                                    "color": "#000000"
+                                                    "color": "#000000",
+                                                    "fontWeight": "bold"
                                                 }
                                             },
                                             "children": "{{ game.data.Bomb.r2c3 ? 'O' : '' }}",
@@ -394,7 +400,8 @@
                                                     "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
                                                     "background": "{{ game.data.Bomb.r3c1 ? '#ffffff' : '#000000' }}",
-                                                    "color": "#000000"
+                                                    "color": "#000000",
+                                                    "fontWeight": "bold"
                                                 }
                                             },
                                             "children": "{{ game.data.Bomb.r3c1 ? 'O' : '' }}",
@@ -418,7 +425,8 @@
                                                     "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
                                                     "background": "{{ game.data.Bomb.r3c2 ? '#ffffff' : '#000000' }}",
-                                                    "color": "#000000"
+                                                    "color": "#000000",
+                                                    "fontWeight": "bold"
                                                 }
                                             },
                                             "children": "{{ game.data.Bomb.r3c2 ? 'O' : '' }}",
@@ -442,7 +450,8 @@
                                                     "border": "2px solid #000000",
                                                     "borderRadius": "0.6vh",
                                                     "background": "{{ game.data.Bomb.r3c3 ? '#ffffff' : '#000000' }}",
-                                                    "color": "#000000"
+                                                    "color": "#000000",
+                                                    "fontWeight": "bold"
                                                 }
                                             },
                                             "children": "{{ game.data.Bomb.r3c3 ? 'O' : '' }}",
