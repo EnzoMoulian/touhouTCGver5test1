@@ -222,7 +222,7 @@
                                                     "color": "#ffffff"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r1c1 ? '✓' : '' }}",
+                                            "children": "{{ game.data.Bomb.r1c1 ? 'O' : '' }}",
                                             "onClick": "game.data.Bomb.r1c1 = !game.data.Bomb.r1c1"
                                         },
                                         {
@@ -246,7 +246,7 @@
                                                     "color": "#ffffff"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r1c2 ? '✓' : '' }}",
+                                            "children": "{{ game.data.Bomb.r1c2 ? 'O' : '' }}",
                                             "onClick": "game.data.Bomb.r1c2 = !game.data.Bomb.r1c2"
                                         },
                                         {
@@ -270,7 +270,7 @@
                                                     "color": "#ffffff"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r1c3 ? '✓' : '' }}",
+                                            "children": "{{ game.data.Bomb.r1c3 ? 'O' : '' }}",
                                             "onClick": "game.data.Bomb.r1c3 = !game.data.Bomb.r1c3"
                                         }
                                     ]
@@ -305,7 +305,7 @@
                                                     "color": "#ffffff"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r2c1 ? '✓' : '' }}",
+                                            "children": "{{ game.data.Bomb.r2c1 ? 'O' : '' }}",
                                             "onClick": "game.data.Bomb.r2c1 = !game.data.Bomb.r2c1"
                                         },
                                         {
@@ -329,7 +329,7 @@
                                                     "color": "#ffffff"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r2c2 ? '✓' : '' }}",
+                                            "children": "{{ game.data.Bomb.r2c2 ? 'O' : '' }}",
                                             "onClick": "game.data.Bomb.r2c2 = !game.data.Bomb.r2c2"
                                         },
                                         {
@@ -353,7 +353,7 @@
                                                     "color": "#ffffff"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r2c3 ? '✓' : '' }}",
+                                            "children": "{{ game.data.Bomb.r2c3 ? 'O' : '' }}",
                                             "onClick": "game.data.Bomb.r2c3 = !game.data.Bomb.r2c3"
                                         }
                                     ]
@@ -388,7 +388,7 @@
                                                     "color": "#ffffff"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r3c1 ? '✓' : '' }}",
+                                            "children": "{{ game.data.Bomb.r3c1 ? 'O' : '' }}",
                                             "onClick": "game.data.Bomb.r3c1 = !game.data.Bomb.r3c1"
                                         },
                                         {
@@ -412,7 +412,7 @@
                                                     "color": "#ffffff"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r3c2 ? '✓' : '' }}",
+                                            "children": "{{ game.data.Bomb.r3c2 ? 'O' : '' }}",
                                             "onClick": "game.data.Bomb.r3c2 = !game.data.Bomb.r3c2"
                                         },
                                         {
@@ -436,7 +436,7 @@
                                                     "color": "#ffffff"
                                                 }
                                             },
-                                            "children": "{{ game.data.Bomb.r3c3 ? '✓' : '' }}",
+                                            "children": "{{ game.data.Bomb.r3c3 ? 'O' : '' }}",
                                             "onClick": "game.data.Bomb.r3c3 = !game.data.Bomb.r3c3"
                                         }
                                     ]
@@ -655,7 +655,7 @@
                                     "borderRadius": "50%",
                                     "background": "#5b8def",
                                     "color": "#ffffff",
-                                    "border": "3px solid #e6c5a5",
+                                    "border": "3px solid #000000",
                                     "display": "flex",
                                     "flexDirection": "column",
                                     "alignItems": "center",
@@ -674,7 +674,11 @@
                                     "props": {
                                         "value": "{{ game.data.PA.value }}",
                                         "style": {
-                                            "width": "5vh"
+                                            "width": "5vh",
+                                            "color": "#ffffff",
+                                            "background": "transparent",
+                                            "border": "1px solid #ffffff",
+                                            "textAlign": "center"
                                         }
                                     },
                                     "onChange": "game.data.PA.value = Math.max(0, Number(value))"
@@ -696,7 +700,7 @@
                                     "borderRadius": "50%",
                                     "background": "#000000",
                                     "color": "#ffffff",
-                                    "border": "3px solid #e6c5a5",
+                                    "border": "3px solid #000000",
                                     "display": "flex",
                                     "flexDirection": "column",
                                     "alignItems": "center",
@@ -742,7 +746,7 @@
                                     "borderRadius": "50%",
                                     "background": "#6cbf5a",
                                     "color": "#ffffff",
-                                    "border": "3px solid #e6c5a5",
+                                    "border": "3px solid #000000",
                                     "display": "flex",
                                     "flexDirection": "column",
                                     "alignItems": "center",
@@ -761,7 +765,11 @@
                                     "props": {
                                         "value": "{{ game.data.PM.value }}",
                                         "style": {
-                                            "width": "5vh"
+                                            "width": "5vh",
+                                            "color": "#ffffff",
+                                            "background": "transparent",
+                                            "border": "1px solid #ffffff",
+                                            "textAlign": "center"
                                         }
                                     },
                                     "onChange": "game.data.PM.value = Math.max(0, Number(value))"
