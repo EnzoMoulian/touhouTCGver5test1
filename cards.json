@@ -2384,5 +2384,43 @@
         "tags": ["Danmaku"],
         "element": ["🌌 Astra", "🔮 Anima"],
         "isHorizontal": "false"
+    },
+    "tst-129": {
+        "id": "tst-129",
+        "face": {
+            "front": {
+                "name": { "name": "Bakezouri" },
+                "type": "Unités",
+                "cost": 0,
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/unites-creees/TST-129.png"
+            }
+        },
+        "name": "Bakezouri",
+        "type": "Unités",
+        "cost": 0,
+        "Seuil de Puissance": 0,
+        "tags": ["Tsukumogami"],
+        "element": ["⚪ Nihil"],
+        "isHorizontal": "false",
+        "isToken": "true"
+    },
+    "tst-130": {
+        "id": "tst-130",
+        "face": {
+            "front": {
+                "name": { "name": "Kedama" },
+                "type": "Unités",
+                "cost": 0,
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/unites-creees/TST-130.png"
+            }
+        },
+        "name": "Kedama",
+        "type": "Unités",
+        "cost": 0,
+        "Seuil de Puissance": 0,
+        "tags": ["Nature"],
+        "element": ["⚪ Nihil"],
+        "isHorizontal": "false",
+        "isToken": "true"
     }
 }

@@ -63,16 +63,6 @@
                 "drawOnStart": true,
                 "drawPerTurn": 1
             },
-            "tokens": [
-                {
-                    "name": "Bakezouri",
-                    "image": "https://enzomoulian.github.io/touhouTCGver5test1/unites-creees/TST-129.png"
-                },
-                {
-                    "name": "Kedama",
-                    "image": "https://enzomoulian.github.io/touhouTCGver5test1/unites-creees/TST-130.png"
-                }
-            ],
             "sections": {
                 "autoPlayFromHand": {
                     "Unités": "Reserve",
