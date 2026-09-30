@@ -1945,13 +1945,13 @@
         "id": "tst-105",
         "face": {
             "front": {
-                "name": { "name": "Saki Kurokoma" },
+                "name": { "name": "H - Saki Kurokoma" },
                 "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-105.png"
             }
         },
-        "name": "Saki Kurokoma",
+        "name": "H - Saki Kurokoma",
         "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
@@ -1963,13 +1963,13 @@
         "id": "tst-106",
         "face": {
             "front": {
-                "name": { "name": "Remilia Scarlet" },
+                "name": { "name": "H - Remilia Scarlet" },
                 "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-106.png"
             }
         },
-        "name": "Remilia Scarlet",
+        "name": "H - Remilia Scarlet",
         "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
@@ -1981,13 +1981,13 @@
         "id": "tst-107",
         "face": {
             "front": {
-                "name": { "name": "Marisa Kirisame" },
+                "name": { "name": "H - Marisa Kirisame" },
                 "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-107.png"
             }
         },
-        "name": "Marisa Kirisame",
+        "name": "H - Marisa Kirisame",
         "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
@@ -1999,13 +1999,13 @@
         "id": "tst-108",
         "face": {
             "front": {
-                "name": { "name": "Sanae Kochiya" },
+                "name": { "name": "H - Sanae Kochiya" },
                 "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-108.png"
             }
         },
-        "name": "Sanae Kochiya",
+        "name": "H - Sanae Kochiya",
         "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
@@ -2017,13 +2017,13 @@
         "id": "tst-109",
         "face": {
             "front": {
-                "name": { "name": "Suwako Moriya" },
+                "name": { "name": "H - Suwako Moriya" },
                 "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-109.png"
             }
         },
-        "name": "Suwako Moriya",
+        "name": "H - Suwako Moriya",
         "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
@@ -2035,13 +2035,13 @@
         "id": "tst-110",
         "face": {
             "front": {
-                "name": { "name": "Reimu Hakurei" },
+                "name": { "name": "H - Reimu Hakurei" },
                 "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-110.png"
             }
         },
-        "name": "Reimu Hakurei",
+        "name": "H - Reimu Hakurei",
         "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
@@ -2053,13 +2053,13 @@
         "id": "tst-111",
         "face": {
             "front": {
-                "name": { "name": "Byakuren Hijiri" },
+                "name": { "name": "H - Byakuren Hijiri" },
                 "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-111.png"
             }
         },
-        "name": "Byakuren Hijiri",
+        "name": "H - Byakuren Hijiri",
         "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
@@ -2071,13 +2071,13 @@
         "id": "tst-112",
         "face": {
             "front": {
-                "name": { "name": "Minamitsu Murasa" },
+                "name": { "name": "H - Minamitsu Murasa" },
                 "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-112.png"
             }
         },
-        "name": "Minamitsu Murasa",
+        "name": "H - Minamitsu Murasa",
         "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
@@ -2089,13 +2089,13 @@
         "id": "tst-113",
         "face": {
             "front": {
-                "name": { "name": "Eirin Yagokoro" },
+                "name": { "name": "H - Eirin Yagokoro" },
                 "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-113.png"
             }
         },
-        "name": "Eirin Yagokoro",
+        "name": "H - Eirin Yagokoro",
         "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
@@ -2107,13 +2107,13 @@
         "id": "tst-114",
         "face": {
             "front": {
-                "name": { "name": "Satori Komeiji" },
+                "name": { "name": "H - Satori Komeiji" },
                 "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-114.png"
             }
         },
-        "name": "Satori Komeiji",
+        "name": "H - Satori Komeiji",
         "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
@@ -2125,13 +2125,13 @@
         "id": "tst-115",
         "face": {
             "front": {
-                "name": { "name": "Yukari Yakumo" },
+                "name": { "name": "H - Yukari Yakumo" },
                 "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-115.png"
             }
         },
-        "name": "Yukari Yakumo",
+        "name": "H - Yukari Yakumo",
         "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
@@ -2143,13 +2143,13 @@
         "id": "tst-116",
         "face": {
             "front": {
-                "name": { "name": "Junko" },
+                "name": { "name": "H - Junko" },
                 "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-116.png"
             }
         },
-        "name": "Junko",
+        "name": "H - Junko",
         "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
@@ -2164,13 +2164,13 @@
                 "name": {
                     "name": "Technique Fulgurante « Météores du Pégase Noir »"
                 },
-                "type": "Cartes de sort signatures",
+                "type": "Cartes de sort",
                 "cost": 1,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/cartes-de-sort-signature/TST-117.png"
             }
         },
         "name": "Technique Fulgurante « Météores du Pégase Noir »",
-        "type": "Cartes de sort signatures",
+        "type": "Cartes de sort",
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Art"],
@@ -2182,13 +2182,13 @@
         "face": {
             "front": {
                 "name": { "name": "Art Divin « Illusion Vampirique »" },
-                "type": "Cartes de sort signatures",
+                "type": "Cartes de sort",
                 "cost": 1,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/cartes-de-sort-signature/TST-118.png"
             }
         },
         "name": "Art Divin « Illusion Vampirique »",
-        "type": "Cartes de sort signatures",
+        "type": "Cartes de sort",
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": ["Art"],
@@ -2200,13 +2200,13 @@
         "face": {
             "front": {
                 "name": { "name": "Canon Magique « Éclat Final »" },
-                "type": "Cartes de sort signatures",
+                "type": "Cartes de sort",
                 "cost": 2,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/cartes-de-sort-signature/TST-119.png"
             }
         },
         "name": "Canon Magique « Éclat Final »",
-        "type": "Cartes de sort signatures",
+        "type": "Cartes de sort",
         "cost": 2,
         "Seuil de Puissance": 6,
         "tags": ["Danmaku"],
@@ -2218,13 +2218,13 @@
         "face": {
             "front": {
                 "name": { "name": "Art Ésotérique « Rituel de l’Oubli »" },
-                "type": "Cartes de sort signatures",
+                "type": "Cartes de sort",
                 "cost": 1,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/cartes-de-sort-signature/TST-120.png"
             }
         },
         "name": "Art Ésotérique « Rituel de l’Oubli »",
-        "type": "Cartes de sort signatures",
+        "type": "Cartes de sort",
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Art"],
@@ -2238,13 +2238,13 @@
                 "name": {
                     "name": "Dieu Autochtone « Sept Pierres et Sept Arbres »"
                 },
-                "type": "Cartes de sort signatures",
+                "type": "Cartes de sort",
                 "cost": 2,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/cartes-de-sort-signature/TST-121.png"
             }
         },
         "name": "Dieu Autochtone « Sept Pierres et Sept Arbres »",
-        "type": "Cartes de sort signatures",
+        "type": "Cartes de sort",
         "cost": 2,
         "Seuil de Puissance": 5,
         "tags": ["Art"],
@@ -2258,13 +2258,13 @@
                 "name": {
                     "name": "Esprit Divin « Sceau des Songes -Instant- »"
                 },
-                "type": "Cartes de sort signatures",
+                "type": "Cartes de sort",
                 "cost": 2,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/cartes-de-sort-signature/TST-122.png"
             }
         },
         "name": "Esprit Divin « Sceau des Songes -Instant- »",
-        "type": "Cartes de sort signatures",
+        "type": "Cartes de sort",
         "cost": 2,
         "Seuil de Puissance": 5,
         "tags": ["Art"],
@@ -2276,13 +2276,13 @@
         "face": {
             "front": {
                 "name": { "name": "Magie de Lumière « Voie Lactée Magique »" },
-                "type": "Cartes de sort signatures",
+                "type": "Cartes de sort",
                 "cost": 1,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/cartes-de-sort-signature/TST-123.png"
             }
         },
         "name": "Magie de Lumière « Voie Lactée Magique »",
-        "type": "Cartes de sort signatures",
+        "type": "Cartes de sort",
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Danmaku"],
@@ -2296,13 +2296,13 @@
                 "name": {
                     "name": "Signe du Port « Amarrage Éternel du Vaisseau Fantôme »"
                 },
-                "type": "Cartes de sort signatures",
+                "type": "Cartes de sort",
                 "cost": 2,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/cartes-de-sort-signature/TST-124.png"
             }
         },
         "name": "Signe du Port « Amarrage Éternel du Vaisseau Fantôme »",
-        "type": "Cartes de sort signatures",
+        "type": "Cartes de sort",
         "cost": 2,
         "Seuil de Puissance": 4,
         "tags": ["Danmaku"],
@@ -2316,13 +2316,13 @@
                 "name": {
                     "name": "Art Ésotérique « Inhumation Astrale Secrète »"
                 },
-                "type": "Cartes de sort signatures",
+                "type": "Cartes de sort",
                 "cost": 3,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/cartes-de-sort-signature/TST-125.png"
             }
         },
         "name": "Art Ésotérique « Inhumation Astrale Secrète »",
-        "type": "Cartes de sort signatures",
+        "type": "Cartes de sort",
         "cost": 3,
         "Seuil de Puissance": 5,
         "tags": ["Art"],
@@ -2334,13 +2334,13 @@
         "face": {
             "front": {
                 "name": { "name": "Réminiscence « Hypnose Terrifiante »" },
-                "type": "Cartes de sort signatures",
+                "type": "Cartes de sort",
                 "cost": 1,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/cartes-de-sort-signature/TST-126.png"
             }
         },
         "name": "Réminiscence « Hypnose Terrifiante »",
-        "type": "Cartes de sort signatures",
+        "type": "Cartes de sort",
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Art"],
@@ -2354,13 +2354,13 @@
                 "name": {
                     "name": "Barrière « Malédiction du Rêve et de la Réalité »"
                 },
-                "type": "Cartes de sort signatures",
+                "type": "Cartes de sort",
                 "cost": 3,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/cartes-de-sort-signature/TST-127.png"
             }
         },
         "name": "Barrière « Malédiction du Rêve et de la Réalité »",
-        "type": "Cartes de sort signatures",
+        "type": "Cartes de sort",
         "cost": 3,
         "Seuil de Puissance": 7,
         "tags": ["Danmaku"],
@@ -2372,13 +2372,13 @@
         "face": {
             "front": {
                 "name": { "name": "« Folie Immaculée »" },
-                "type": "Cartes de sort signatures",
+                "type": "Cartes de sort",
                 "cost": 1,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/cartes-de-sort-signature/TST-128.png"
             }
         },
         "name": "« Folie Immaculée »",
-        "type": "Cartes de sort signatures",
+        "type": "Cartes de sort",
         "cost": 1,
         "Seuil de Puissance": 6,
         "tags": ["Danmaku"],
