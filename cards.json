@@ -14,7 +14,7 @@
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": ["Bête", "Clan Keiga"],
-        "element": "🔥 Feu",
+        "element": ["🔥 Feu"],
         "isHorizontal": "false"
     },
     "tst-002": {
@@ -32,7 +32,7 @@
         "cost": 3,
         "Seuil de Puissance": 7,
         "tags": ["Démon", "Vampire"],
-        "element": "🔥 Feu",
+        "element": ["🔥 Feu"],
         "isHorizontal": "false"
     },
     "tst-003": {
@@ -50,7 +50,7 @@
         "cost": 2,
         "Seuil de Puissance": 4,
         "tags": ["Démon", "Bagarreur"],
-        "element": "🔥 Feu",
+        "element": ["🔥 Feu"],
         "isHorizontal": "false"
     },
     "tst-004": {
@@ -68,7 +68,7 @@
         "cost": 1,
         "Seuil de Puissance": 1,
         "tags": ["Animal", "Vassal", "Clan Keiga"],
-        "element": "🔥 Feu",
+        "element": ["🔥 Feu"],
         "isHorizontal": "false"
     },
     "tst-005": {
@@ -88,7 +88,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Art"],
-        "element": "🔥 Feu",
+        "element": ["🔥 Feu"],
         "isHorizontal": "false"
     },
     "tst-006": {
@@ -108,7 +108,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Art"],
-        "element": "🔥 Feu",
+        "element": ["🔥 Feu"],
         "isHorizontal": "false"
     },
     "tst-007": {
@@ -128,7 +128,7 @@
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": ["Danmaku"],
-        "element": "🔥 Feu",
+        "element": ["🔥 Feu"],
         "isHorizontal": "false"
     },
     "tst-008": {
@@ -148,7 +148,7 @@
         "cost": 3,
         "Seuil de Puissance": 7,
         "tags": ["Danmaku"],
-        "element": "🔥 Feu",
+        "element": ["🔥 Feu"],
         "isHorizontal": "false"
     },
     "tst-009": {
@@ -168,7 +168,7 @@
         "cost": 1,
         "Seuil de Puissance": 5,
         "tags": [],
-        "element": "🔥 Feu",
+        "element": ["🔥 Feu"],
         "isHorizontal": "true"
     },
     "tst-010": {
@@ -188,7 +188,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": [],
-        "element": "🔥 Feu",
+        "element": ["🔥 Feu"],
         "isHorizontal": "true"
     },
     "tst-011": {
@@ -206,7 +206,7 @@
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": ["Nature"],
-        "element": "🌳 Bois",
+        "element": ["🌳 Bois"],
         "isHorizontal": "false"
     },
     "tst-012": {
@@ -224,7 +224,7 @@
         "cost": 4,
         "Seuil de Puissance": 5,
         "tags": ["Dieu", "Familier"],
-        "element": "🌳 Bois",
+        "element": ["🌳 Bois"],
         "isHorizontal": "false"
     },
     "tst-013": {
@@ -242,7 +242,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Kappa", "Nature"],
-        "element": "🌳 Bois",
+        "element": ["🌳 Bois"],
         "isHorizontal": "false"
     },
     "tst-014": {
@@ -260,7 +260,7 @@
         "cost": 2,
         "Seuil de Puissance": 3,
         "tags": ["Humain", "Commerçant", "Villageois"],
-        "element": "🌳 Bois",
+        "element": ["🌳 Bois"],
         "isHorizontal": "false"
     },
     "tst-015": {
@@ -278,7 +278,7 @@
         "cost": 1,
         "Seuil de Puissance": 2,
         "tags": ["Art"],
-        "element": "🌳 Bois",
+        "element": ["🌳 Bois"],
         "isHorizontal": "false"
     },
     "tst-016": {
@@ -296,7 +296,7 @@
         "cost": 2,
         "Seuil de Puissance": 3,
         "tags": ["Art"],
-        "element": "🌳 Bois",
+        "element": ["🌳 Bois"],
         "isHorizontal": "false"
     },
     "tst-017": {
@@ -316,7 +316,7 @@
         "cost": 2,
         "Seuil de Puissance": 4,
         "tags": ["Danmaku"],
-        "element": "🌳 Bois",
+        "element": ["🌳 Bois"],
         "isHorizontal": "false"
     },
     "tst-018": {
@@ -334,7 +334,7 @@
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": ["Danmaku"],
-        "element": "🌳 Bois",
+        "element": ["🌳 Bois"],
         "isHorizontal": "false"
     },
     "tst-019": {
@@ -352,7 +352,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": [],
-        "element": "🌳 Bois",
+        "element": ["🌳 Bois"],
         "isHorizontal": "true"
     },
     "tst-020": {
@@ -370,7 +370,7 @@
         "cost": 2,
         "Seuil de Puissance": 4,
         "tags": [],
-        "element": "🌳 Bois",
+        "element": ["🌳 Bois"],
         "isHorizontal": "true"
     },
     "tst-021": {
@@ -388,7 +388,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Nature"],
-        "element": "🌪️ Vent",
+        "element": ["🌪️ Vent"],
         "isHorizontal": "false"
     },
     "tst-022": {
@@ -406,7 +406,7 @@
         "cost": 1,
         "Seuil de Puissance": 1,
         "tags": ["Tengu", "Journaliste"],
-        "element": "🌪️ Vent",
+        "element": ["🌪️ Vent"],
         "isHorizontal": "false"
     },
     "tst-023": {
@@ -424,7 +424,7 @@
         "cost": 2,
         "Seuil de Puissance": 4,
         "tags": ["Bagarreur", "Adepte Myouren"],
-        "element": "🌪️ Vent",
+        "element": ["🌪️ Vent"],
         "isHorizontal": "false"
     },
     "tst-024": {
@@ -442,7 +442,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Vassal", "Adepte Myouren"],
-        "element": "🌪️ Vent",
+        "element": ["🌪️ Vent"],
         "isHorizontal": "false"
     },
     "tst-025": {
@@ -460,7 +460,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Art"],
-        "element": "🌪️ Vent",
+        "element": ["🌪️ Vent"],
         "isHorizontal": "false"
     },
     "tst-026": {
@@ -480,7 +480,7 @@
         "cost": 1,
         "Seuil de Puissance": 2,
         "tags": ["Art"],
-        "element": "🌪️ Vent",
+        "element": ["🌪️ Vent"],
         "isHorizontal": "false"
     },
     "tst-027": {
@@ -500,7 +500,7 @@
         "cost": 2,
         "Seuil de Puissance": 5,
         "tags": ["Danmaku"],
-        "element": "🌪️ Vent",
+        "element": ["🌪️ Vent"],
         "isHorizontal": "false"
     },
     "tst-028": {
@@ -518,7 +518,7 @@
         "cost": 2,
         "Seuil de Puissance": 5,
         "tags": ["Danmaku"],
-        "element": "🌪️ Vent",
+        "element": ["🌪️ Vent"],
         "isHorizontal": "false"
     },
     "tst-029": {
@@ -536,7 +536,7 @@
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": [],
-        "element": "🌪️ Vent",
+        "element": ["🌪️ Vent"],
         "isHorizontal": "true"
     },
     "tst-030": {
@@ -556,7 +556,7 @@
         "cost": 1,
         "Seuil de Puissance": 2,
         "tags": [],
-        "element": "🌪️ Vent",
+        "element": ["🌪️ Vent"],
         "isHorizontal": "true"
     },
     "tst-031": {
@@ -574,7 +574,7 @@
         "cost": 1,
         "Seuil de Puissance": 1,
         "tags": ["Fée", "Bagarreur"],
-        "element": "💧 Eau",
+        "element": ["🌊 Eau"],
         "isHorizontal": "false"
     },
     "tst-032": {
@@ -592,7 +592,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Kappa", "Aquatique"],
-        "element": "💧 Eau",
+        "element": ["🌊 Eau"],
         "isHorizontal": "false"
     },
     "tst-033": {
@@ -610,7 +610,7 @@
         "cost": 2,
         "Seuil de Puissance": 5,
         "tags": ["Bête", "Clan Kiketsu"],
-        "element": "💧 Eau",
+        "element": ["🌊 Eau"],
         "isHorizontal": "false"
     },
     "tst-034": {
@@ -628,7 +628,7 @@
         "cost": 2,
         "Seuil de Puissance": 4,
         "tags": ["Animal", "Vassal", "Clan Kiketsu"],
-        "element": "💧 Eau",
+        "element": ["🌊 Eau"],
         "isHorizontal": "false"
     },
     "tst-035": {
@@ -646,7 +646,7 @@
         "cost": 2,
         "Seuil de Puissance": 4,
         "tags": ["Art"],
-        "element": "💧 Eau",
+        "element": ["🌊 Eau"],
         "isHorizontal": "false"
     },
     "tst-036": {
@@ -664,7 +664,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Art"],
-        "element": "💧 Eau",
+        "element": ["🌊 Eau"],
         "isHorizontal": "false"
     },
     "tst-037": {
@@ -684,7 +684,7 @@
         "cost": 2,
         "Seuil de Puissance": 6,
         "tags": ["Danmaku"],
-        "element": "💧 Eau",
+        "element": ["🌊 Eau"],
         "isHorizontal": "false"
     },
     "tst-038": {
@@ -702,7 +702,7 @@
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": ["Danmaku"],
-        "element": "💧 Eau",
+        "element": ["🌊 Eau"],
         "isHorizontal": "false"
     },
     "tst-039": {
@@ -720,7 +720,7 @@
         "cost": 2,
         "Seuil de Puissance": 4,
         "tags": [],
-        "element": "💧 Eau",
+        "element": ["🌊 Eau"],
         "isHorizontal": "true"
     },
     "tst-040": {
@@ -738,7 +738,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": [],
-        "element": "💧 Eau",
+        "element": ["🌊 Eau"],
         "isHorizontal": "true"
     },
     "tst-041": {
@@ -756,7 +756,7 @@
         "cost": 1,
         "Seuil de Puissance": 1,
         "tags": ["Animal"],
-        "element": "☀️ Lumière",
+        "element": ["☀️ Lumière"],
         "isHorizontal": "false"
     },
     "tst-042": {
@@ -774,7 +774,7 @@
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": ["Humain", "Bête", "Gardien"],
-        "element": "☀️ Lumière",
+        "element": ["☀️ Lumière"],
         "isHorizontal": "false"
     },
     "tst-043": {
@@ -792,7 +792,7 @@
         "cost": 2,
         "Seuil de Puissance": 5,
         "tags": ["Bête", "Gardien"],
-        "element": "☀️ Lumière",
+        "element": ["☀️ Lumière"],
         "isHorizontal": "false"
     },
     "tst-044": {
@@ -810,7 +810,7 @@
         "cost": 2,
         "Seuil de Puissance": 5,
         "tags": ["Magicien", "Gardien"],
-        "element": "☀️ Lumière",
+        "element": ["☀️ Lumière"],
         "isHorizontal": "false"
     },
     "tst-045": {
@@ -830,7 +830,7 @@
         "cost": 1,
         "Seuil de Puissance": 5,
         "tags": ["Art"],
-        "element": "☀️ Lumière",
+        "element": ["☀️ Lumière"],
         "isHorizontal": "false"
     },
     "tst-046": {
@@ -850,7 +850,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Art"],
-        "element": "☀️ Lumière",
+        "element": ["☀️ Lumière"],
         "isHorizontal": "false"
     },
     "tst-047": {
@@ -870,7 +870,7 @@
         "cost": 2,
         "Seuil de Puissance": 6,
         "tags": ["Danmaku"],
-        "element": "☀️ Lumière",
+        "element": ["☀️ Lumière"],
         "isHorizontal": "false"
     },
     "tst-048": {
@@ -888,7 +888,7 @@
         "cost": 2,
         "Seuil de Puissance": 4,
         "tags": ["Danmaku"],
-        "element": "☀️ Lumière",
+        "element": ["☀️ Lumière"],
         "isHorizontal": "false"
     },
     "tst-049": {
@@ -906,7 +906,7 @@
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": [],
-        "element": "☀️ Lumière",
+        "element": ["☀️ Lumière"],
         "isHorizontal": "true"
     },
     "tst-050": {
@@ -924,7 +924,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": [],
-        "element": "☀️ Lumière",
+        "element": ["☀️ Lumière"],
         "isHorizontal": "true"
     },
     "tst-051": {
@@ -942,7 +942,7 @@
         "cost": 1,
         "Seuil de Puissance": 2,
         "tags": ["Bagarreur"],
-        "element": "🌑 Ténèbres",
+        "element": ["🌑 Ténèbres"],
         "isHorizontal": "false"
     },
     "tst-052": {
@@ -960,7 +960,7 @@
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": ["Animal", "Musicien"],
-        "element": "🌑 Ténèbres",
+        "element": ["🌑 Ténèbres"],
         "isHorizontal": "false"
     },
     "tst-053": {
@@ -978,7 +978,7 @@
         "cost": 3,
         "Seuil de Puissance": 6,
         "tags": ["Bête", "Alliance Gouyoku"],
-        "element": "🌑 Ténèbres",
+        "element": ["🌑 Ténèbres"],
         "isHorizontal": "false"
     },
     "tst-054": {
@@ -996,7 +996,7 @@
         "cost": 2,
         "Seuil de Puissance": 4,
         "tags": ["Bête", "Vassal", "Alliance Gouyoku"],
-        "element": "🌑 Ténèbres",
+        "element": ["🌑 Ténèbres"],
         "isHorizontal": "false"
     },
     "tst-055": {
@@ -1014,7 +1014,7 @@
         "cost": 1,
         "Seuil de Puissance": 2,
         "tags": ["Art"],
-        "element": "🌑 Ténèbres",
+        "element": ["🌑 Ténèbres"],
         "isHorizontal": "false"
     },
     "tst-056": {
@@ -1034,7 +1034,7 @@
         "cost": 1,
         "Seuil de Puissance": 2,
         "tags": ["Art"],
-        "element": "🌑 Ténèbres",
+        "element": ["🌑 Ténèbres"],
         "isHorizontal": "false"
     },
     "tst-057": {
@@ -1054,7 +1054,7 @@
         "cost": 2,
         "Seuil de Puissance": 5,
         "tags": ["Danmaku"],
-        "element": "🌑 Ténèbres",
+        "element": ["🌑 Ténèbres"],
         "isHorizontal": "false"
     },
     "tst-058": {
@@ -1072,7 +1072,7 @@
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": ["Danmaku"],
-        "element": "🌑 Ténèbres",
+        "element": ["🌑 Ténèbres"],
         "isHorizontal": "false"
     },
     "tst-059": {
@@ -1090,7 +1090,7 @@
         "cost": 1,
         "Seuil de Puissance": 2,
         "tags": [],
-        "element": "🌑 Ténèbres",
+        "element": ["🌑 Ténèbres"],
         "isHorizontal": "true"
     },
     "tst-060": {
@@ -1108,7 +1108,7 @@
         "cost": 1,
         "Seuil de Puissance": 5,
         "tags": [],
-        "element": "🌑 Ténèbres",
+        "element": ["🌑 Ténèbres"],
         "isHorizontal": "true"
     },
     "tst-061": {
@@ -1126,7 +1126,7 @@
         "cost": 3,
         "Seuil de Puissance": 6,
         "tags": ["Animal", "Sélénite", "Familier"],
-        "element": "⭐ Astra",
+        "element": ["🌌 Astra"],
         "isHorizontal": "false"
     },
     "tst-062": {
@@ -1144,7 +1144,7 @@
         "cost": 2,
         "Seuil de Puissance": 5,
         "tags": ["Dieu", "Esprit", "Sélénite"],
-        "element": "⭐ Astra",
+        "element": ["🌌 Astra"],
         "isHorizontal": "false"
     },
     "tst-063": {
@@ -1162,7 +1162,7 @@
         "cost": 1,
         "Seuil de Puissance": 7,
         "tags": ["Fée", "Vassal"],
-        "element": "⭐ Astra",
+        "element": ["🌌 Astra"],
         "isHorizontal": "false"
     },
     "tst-064": {
@@ -1180,7 +1180,7 @@
         "cost": 2,
         "Seuil de Puissance": 4,
         "tags": ["Humain", "Savant", "Villageois"],
-        "element": "⭐ Astra",
+        "element": ["🌌 Astra"],
         "isHorizontal": "false"
     },
     "tst-065": {
@@ -1200,7 +1200,7 @@
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": ["Art"],
-        "element": "⭐ Astra",
+        "element": ["🌌 Astra"],
         "isHorizontal": "false"
     },
     "tst-066": {
@@ -1218,7 +1218,7 @@
         "cost": 2,
         "Seuil de Puissance": 5,
         "tags": ["Art"],
-        "element": "⭐ Astra",
+        "element": ["🌌 Astra"],
         "isHorizontal": "false"
     },
     "tst-067": {
@@ -1238,7 +1238,7 @@
         "cost": 2,
         "Seuil de Puissance": 6,
         "tags": ["Danmaku"],
-        "element": "⭐ Astra",
+        "element": ["🌌 Astra"],
         "isHorizontal": "false"
     },
     "tst-068": {
@@ -1256,7 +1256,7 @@
         "cost": 4,
         "Seuil de Puissance": 5,
         "tags": ["Danmaku"],
-        "element": "⭐ Astra",
+        "element": ["🌌 Astra"],
         "isHorizontal": "false"
     },
     "tst-069": {
@@ -1274,7 +1274,7 @@
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": [],
-        "element": "⭐ Astra",
+        "element": ["🌌 Astra"],
         "isHorizontal": "true"
     },
     "tst-070": {
@@ -1292,7 +1292,7 @@
         "cost": 2,
         "Seuil de Puissance": 4,
         "tags": [],
-        "element": "⭐ Astra",
+        "element": ["🌌 Astra"],
         "isHorizontal": "true"
     },
     "tst-071": {
@@ -1310,7 +1310,7 @@
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": ["Animal", "Savant", "Shikigami"],
-        "element": "🔮 Anima",
+        "element": ["🔮 Anima"],
         "isHorizontal": "false"
     },
     "tst-072": {
@@ -1328,7 +1328,7 @@
         "cost": 2,
         "Seuil de Puissance": 5,
         "tags": ["Démon", "Bête", "Familier"],
-        "element": "🔮 Anima",
+        "element": ["🔮 Anima"],
         "isHorizontal": "false"
     },
     "tst-073": {
@@ -1346,7 +1346,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Tsukumogami"],
-        "element": "🔮 Anima",
+        "element": ["🔮 Anima"],
         "isHorizontal": "false"
     },
     "tst-074": {
@@ -1364,7 +1364,7 @@
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": ["Dieu", "Gardien"],
-        "element": "🔮 Anima",
+        "element": ["🔮 Anima"],
         "isHorizontal": "false"
     },
     "tst-075": {
@@ -1382,7 +1382,7 @@
         "cost": 2,
         "Seuil de Puissance": 3,
         "tags": ["Art"],
-        "element": "🔮 Anima",
+        "element": ["🔮 Anima"],
         "isHorizontal": "false"
     },
     "tst-076": {
@@ -1402,7 +1402,7 @@
         "cost": 2,
         "Seuil de Puissance": 4,
         "tags": ["Art"],
-        "element": "🔮 Anima",
+        "element": ["🔮 Anima"],
         "isHorizontal": "false"
     },
     "tst-077": {
@@ -1422,7 +1422,7 @@
         "cost": 1,
         "Seuil de Puissance": 5,
         "tags": ["Danmaku"],
-        "element": "🔮 Anima",
+        "element": ["🔮 Anima"],
         "isHorizontal": "false"
     },
     "tst-078": {
@@ -1442,7 +1442,7 @@
         "cost": 2,
         "Seuil de Puissance": 4,
         "tags": ["Danmaku"],
-        "element": "🔮 Anima",
+        "element": ["🔮 Anima"],
         "isHorizontal": "false"
     },
     "tst-079": {
@@ -1462,7 +1462,7 @@
         "cost": 2,
         "Seuil de Puissance": 4,
         "tags": [],
-        "element": "🔮 Anima",
+        "element": ["🔮 Anima"],
         "isHorizontal": "true"
     },
     "tst-080": {
@@ -1480,7 +1480,7 @@
         "cost": 1,
         "Seuil de Puissance": 2,
         "tags": [],
-        "element": "🔮 Anima",
+        "element": ["🔮 Anima"],
         "isHorizontal": "true"
     },
     "tst-081": {
@@ -1498,7 +1498,7 @@
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": ["Gardien", "Domestique"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-082": {
@@ -1516,7 +1516,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Humain", "Domestique"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-083": {
@@ -1534,7 +1534,7 @@
         "cost": 1,
         "Seuil de Puissance": 1,
         "tags": ["Animal", "Shikigami"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-084": {
@@ -1552,7 +1552,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Démon", "Bagarreur"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-085": {
@@ -1570,7 +1570,7 @@
         "cost": 1,
         "Seuil de Puissance": 1,
         "tags": ["Kappa", "Aquatique"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-086": {
@@ -1588,7 +1588,7 @@
         "cost": 1,
         "Seuil de Puissance": 1,
         "tags": ["Kappa", "Nature"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-087": {
@@ -1606,7 +1606,7 @@
         "cost": 1,
         "Seuil de Puissance": 1,
         "tags": ["Tsukumogami"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-088": {
@@ -1624,7 +1624,7 @@
         "cost": 1,
         "Seuil de Puissance": 1,
         "tags": ["Tsukumogami"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-089": {
@@ -1642,7 +1642,7 @@
         "cost": 1,
         "Seuil de Puissance": 1,
         "tags": ["Fée", "Domestique"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-090": {
@@ -1660,7 +1660,7 @@
         "cost": 1,
         "Seuil de Puissance": 1,
         "tags": ["Fée", "Nature"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-091": {
@@ -1678,7 +1678,7 @@
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": ["Art"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-092": {
@@ -1696,7 +1696,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Art"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-093": {
@@ -1714,7 +1714,7 @@
         "cost": 2,
         "Seuil de Puissance": 3,
         "tags": ["Art"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-094": {
@@ -1732,7 +1732,7 @@
         "cost": 1,
         "Seuil de Puissance": 2,
         "tags": ["Art"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-095": {
@@ -1750,7 +1750,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Art"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-096": {
@@ -1768,7 +1768,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Danmaku"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-097": {
@@ -1786,7 +1786,7 @@
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": ["Danmaku"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-098": {
@@ -1806,7 +1806,7 @@
         "cost": 2,
         "Seuil de Puissance": 4,
         "tags": ["Danmaku"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-099": {
@@ -1826,7 +1826,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Danmaku"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-100": {
@@ -1846,7 +1846,7 @@
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": ["Danmaku"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-101": {
@@ -1864,7 +1864,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": [],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "true"
     },
     "tst-102": {
@@ -1882,7 +1882,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": [],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "true"
     },
     "tst-103": {
@@ -1900,7 +1900,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": [],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "true"
     },
     "tst-104": {
@@ -1918,7 +1918,7 @@
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": [],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "true"
     },
     "tst-105": {
@@ -1972,7 +1972,7 @@
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Humain", "Magicien"],
-        "element": ["🔥 Feu", "⭐ Astra"],
+        "element": ["🔥 Feu", "🌌 Astra"],
         "isHorizontal": "false"
     },
     "tst-108": {
@@ -2008,7 +2008,7 @@
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Dieu", "Nature"],
-        "element": ["🌳 Bois", "💧 Eau"],
+        "element": ["🌳 Bois", "🌊 Eau"],
         "isHorizontal": "false"
     },
     "tst-110": {
@@ -2062,7 +2062,7 @@
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Fantôme", "Aquatique"],
-        "element": ["💧 Eau", "🌑 Ténèbres"],
+        "element": ["🌊 Eau", "🌑 Ténèbres"],
         "isHorizontal": "false"
     },
     "tst-113": {
@@ -2080,7 +2080,7 @@
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Dieu", "Sélénite"],
-        "element": ["💧 Eau", "⭐ Astra"],
+        "element": ["🌊 Eau", "🌌 Astra"],
         "isHorizontal": "false"
     },
     "tst-114": {
@@ -2134,7 +2134,7 @@
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Dieu", "Esprit"],
-        "element": ["⭐ Astra", "🔮 Anima"],
+        "element": ["🌌 Astra", "🔮 Anima"],
         "isHorizontal": "false"
     },
     "tst-117": {
@@ -2190,7 +2190,7 @@
         "cost": 2,
         "Seuil de Puissance": 6,
         "tags": ["Danmaku"],
-        "element": ["🔥 Feu", "⭐ Astra"],
+        "element": ["🔥 Feu", "🌌 Astra"],
         "isHorizontal": "false"
     },
     "tst-120": {
@@ -2228,7 +2228,7 @@
         "cost": 2,
         "Seuil de Puissance": 5,
         "tags": ["Art"],
-        "element": ["🌳 Bois", "💧 Eau"],
+        "element": ["🌳 Bois", "🌊 Eau"],
         "isHorizontal": "false"
     },
     "tst-122": {
@@ -2286,7 +2286,7 @@
         "cost": 2,
         "Seuil de Puissance": 4,
         "tags": ["Danmaku"],
-        "element": ["💧 Eau", "🌑 Ténèbres"],
+        "element": ["🌊 Eau", "🌑 Ténèbres"],
         "isHorizontal": "false"
     },
     "tst-125": {
@@ -2306,7 +2306,7 @@
         "cost": 3,
         "Seuil de Puissance": 5,
         "tags": ["Art"],
-        "element": ["💧 Eau", "⭐ Astra"],
+        "element": ["🌊 Eau", "🌌 Astra"],
         "isHorizontal": "false"
     },
     "tst-126": {
@@ -2362,7 +2362,7 @@
         "cost": 1,
         "Seuil de Puissance": 6,
         "tags": ["Danmaku"],
-        "element": ["⭐ Astra", "🔮 Anima"],
+        "element": ["🌌 Astra", "🔮 Anima"],
         "isHorizontal": "false"
     },
     "tst-129": {
@@ -2380,7 +2380,7 @@
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Tsukumogami"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     },
     "tst-130": {
@@ -2398,7 +2398,7 @@
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Nature"],
-        "element": "⚪ Nihil",
+        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     }
 }
