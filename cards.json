@@ -160,7 +160,8 @@
                 },
                 "type": "Lieux",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-009.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-009.png",
+                "isHorizontal": "true"
             }
         },
         "name": "Sous-sol du Manoir du Démon Écarlate",
@@ -180,7 +181,8 @@
                 },
                 "type": "Lieux",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-010.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-010.png",
+                "isHorizontal": "true"
             }
         },
         "name": "Enfer : Monde du Tiryagyoni",
@@ -344,7 +346,8 @@
                 "name": { "name": "Montagne des Youkais : Sanctuaire Moriya" },
                 "type": "Lieux",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/bois/TST-019.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/bois/TST-019.png",
+                "isHorizontal": "true"
             }
         },
         "name": "Montagne des Youkais : Sanctuaire Moriya",
@@ -362,7 +365,8 @@
                 "name": { "name": "Village des Humains : Suzunaan" },
                 "type": "Lieux",
                 "cost": 2,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/bois/TST-020.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/bois/TST-020.png",
+                "isHorizontal": "true"
             }
         },
         "name": "Village des Humains : Suzunaan",
@@ -528,7 +532,8 @@
                 "name": { "name": "Chemin de la Neige Éternelle" },
                 "type": "Lieux",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/vent/TST-029.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/vent/TST-029.png",
+                "isHorizontal": "true"
             }
         },
         "name": "Chemin de la Neige Éternelle",
@@ -548,7 +553,8 @@
                 },
                 "type": "Lieux",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/vent/TST-030.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/vent/TST-030.png",
+                "isHorizontal": "true"
             }
         },
         "name": "Montagne des Youkais : Lac du Dieu du vent",
@@ -712,7 +718,8 @@
                 "name": { "name": "Lac Brumeux" },
                 "type": "Lieux",
                 "cost": 2,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/eau/TST-039.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/eau/TST-039.png",
+                "isHorizontal": "true"
             }
         },
         "name": "Lac Brumeux",
@@ -730,7 +737,8 @@
                 "name": { "name": "Navire du Saint Palanquin" },
                 "type": "Lieux",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/eau/TST-040.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/eau/TST-040.png",
+                "isHorizontal": "true"
             }
         },
         "name": "Navire du Saint Palanquin",
@@ -748,7 +756,7 @@
                 "name": { "name": "Wriggle Nightbug" },
                 "type": "Unités",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumiere/TST-041.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumière/TST-041.png"
             }
         },
         "name": "Wriggle Nightbug",
@@ -766,7 +774,7 @@
                 "name": { "name": "Keine Kamishirasawa" },
                 "type": "Unités",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumiere/TST-042.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumière/TST-042.png"
             }
         },
         "name": "Keine Kamishirasawa",
@@ -784,7 +792,7 @@
                 "name": { "name": "Aunn Komano" },
                 "type": "Unités",
                 "cost": 2,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumiere/TST-043.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumière/TST-043.png"
             }
         },
         "name": "Aunn Komano",
@@ -802,7 +810,7 @@
                 "name": { "name": "Narumi Yatadera" },
                 "type": "Unités",
                 "cost": 2,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumiere/TST-044.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumière/TST-044.png"
             }
         },
         "name": "Narumi Yatadera",
@@ -822,7 +830,7 @@
                 },
                 "type": "Cartes de sort",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumiere/TST-045.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumière/TST-045.png"
             }
         },
         "name": "Signe de la Lueur « Phénomène des Lucioles »",
@@ -842,7 +850,7 @@
                 },
                 "type": "Cartes de sort",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumiere/TST-046.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumière/TST-046.png"
             }
         },
         "name": "Signe des Komainu « Respiration A-Un en Solitaire »",
@@ -862,7 +870,7 @@
                 },
                 "type": "Cartes de sort",
                 "cost": 2,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumiere/TST-047.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumière/TST-047.png"
             }
         },
         "name": "Histoire Factice « Légende de la Terre des Illusions »",
@@ -880,7 +888,7 @@
                 "name": { "name": "Signe Magique « Éveil Instantané »" },
                 "type": "Cartes de sort",
                 "cost": 2,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumiere/TST-048.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumière/TST-048.png"
             }
         },
         "name": "Signe Magique « Éveil Instantané »",
@@ -898,7 +906,8 @@
                 "name": { "name": "Sanctuaire Hakurei" },
                 "type": "Lieux",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumiere/TST-049.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumière/TST-049.png",
+                "isHorizontal": "true"
             }
         },
         "name": "Sanctuaire Hakurei",
@@ -916,7 +925,8 @@
                 "name": { "name": "Temple Myouren" },
                 "type": "Lieux",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumiere/TST-050.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/lumière/TST-050.png",
+                "isHorizontal": "true"
             }
         },
         "name": "Temple Myouren",
@@ -934,7 +944,7 @@
                 "name": { "name": "Rumia" },
                 "type": "Unités",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/tenebres/TST-051.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/ténèbres/TST-051.png"
             }
         },
         "name": "Rumia",
@@ -952,7 +962,7 @@
                 "name": { "name": "Mystia Lorelei" },
                 "type": "Unités",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/tenebres/TST-052.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/ténèbres/TST-052.png"
             }
         },
         "name": "Mystia Lorelei",
@@ -970,7 +980,7 @@
                 "name": { "name": "Yuuma Toutetsu" },
                 "type": "Unités",
                 "cost": 3,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/tenebres/TST-053.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/ténèbres/TST-053.png"
             }
         },
         "name": "Yuuma Toutetsu",
@@ -988,7 +998,7 @@
                 "name": { "name": "Chiyari Tenkajin" },
                 "type": "Unités",
                 "cost": 2,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/tenebres/TST-054.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/ténèbres/TST-054.png"
             }
         },
         "name": "Chiyari Tenkajin",
@@ -1006,7 +1016,7 @@
                 "name": { "name": "Signe des Ténèbres « Démarcation »" },
                 "type": "Cartes de sort",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/tenebres/TST-055.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/ténèbres/TST-055.png"
             }
         },
         "name": "Signe des Ténèbres « Démarcation »",
@@ -1026,7 +1036,7 @@
                 },
                 "type": "Cartes de sort",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/tenebres/TST-056.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/ténèbres/TST-056.png"
             }
         },
         "name": "Cécité Nocturne « Chant de l’Oiseau Nocturne »",
@@ -1046,7 +1056,7 @@
                 },
                 "type": "Cartes de sort",
                 "cost": 2,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/tenebres/TST-057.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/ténèbres/TST-057.png"
             }
         },
         "name": "Avidité Féroce « Gloutonnerie Proscrite en ce Monde »",
@@ -1064,7 +1074,7 @@
                 "name": { "name": "Sang Maudit « Démon Maudit »" },
                 "type": "Cartes de sort",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/tenebres/TST-058.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/ténèbres/TST-058.png"
             }
         },
         "name": "Sang Maudit « Démon Maudit »",
@@ -1082,7 +1092,8 @@
                 "name": { "name": "Manoir du Démon Écarlate" },
                 "type": "Lieux",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/tenebres/TST-059.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/ténèbres/TST-059.png",
+                "isHorizontal": "true"
             }
         },
         "name": "Manoir du Démon Écarlate",
@@ -1100,7 +1111,8 @@
                 "name": { "name": "Monde Souterrain : Mer de Pétrole" },
                 "type": "Lieux",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/tenebres/TST-060.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/ténèbres/TST-060.png",
+                "isHorizontal": "true"
             }
         },
         "name": "Monde Souterrain : Mer de Pétrole",
@@ -1266,7 +1278,8 @@
                 "name": { "name": "Forêt de la Magie" },
                 "type": "Lieux",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/astra/TST-069.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/astra/TST-069.png",
+                "isHorizontal": "true"
             }
         },
         "name": "Forêt de la Magie",
@@ -1284,7 +1297,8 @@
                 "name": { "name": "Pavillon de l'Éternité" },
                 "type": "Lieux",
                 "cost": 2,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/astra/TST-070.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/astra/TST-070.png",
+                "isHorizontal": "true"
             }
         },
         "name": "Pavillon de l'Éternité",
@@ -1454,7 +1468,8 @@
                 },
                 "type": "Lieux",
                 "cost": 2,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/anima/TST-079.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/anima/TST-079.png",
+                "isHorizontal": "true"
             }
         },
         "name": "Monde Souterrain : Palais des Esprits de la Terre",
@@ -1472,7 +1487,8 @@
                 "name": { "name": "La Lune : Mer de la Sérénité" },
                 "type": "Lieux",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/anima/TST-080.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/anima/TST-080.png",
+                "isHorizontal": "true"
             }
         },
         "name": "La Lune : Mer de la Sérénité",
@@ -1856,7 +1872,8 @@
                 "name": { "name": "Ciel de Gensokyo" },
                 "type": "Lieux",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/nihil/TST-101.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/nihil/TST-101.png",
+                "isHorizontal": "true"
             }
         },
         "name": "Ciel de Gensokyo",
@@ -1874,7 +1891,8 @@
                 "name": { "name": "Sentier des Youkais" },
                 "type": "Lieux",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/nihil/TST-102.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/nihil/TST-102.png",
+                "isHorizontal": "true"
             }
         },
         "name": "Sentier des Youkais",
@@ -1892,7 +1910,8 @@
                 "name": { "name": "Village des Humains : Rue Commerçante" },
                 "type": "Lieux",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/nihil/TST-103.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/nihil/TST-103.png",
+                "isHorizontal": "true"
             }
         },
         "name": "Village des Humains : Rue Commerçante",
@@ -1910,7 +1929,8 @@
                 "name": { "name": "Forêt de Bambous de l'Égarement" },
                 "type": "Lieux",
                 "cost": 1,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/nihil/TST-104.png"
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/nihil/TST-104.png",
+                "isHorizontal": "true"
             }
         },
         "name": "Forêt de Bambous de l'Égarement",
