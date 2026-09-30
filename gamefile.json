@@ -3,7 +3,7 @@
     "cardRotation": 90,
     "customHelp": "Grille 3x3 au centre. Unités : jouées épuisées dans la Réserve, puis déployées sur la grille.\nPuissance +1 à chaque tour (max 8) : répartissez-la entre PA et PM.\nBombe : cliquez sur une case pour poser ou retirer un fragment.\nPV : départ à 10.",
     "deckBuilding": {
-        "mainFilters": ["type", "cost", "PP", "element"],
+        "mainFilters": ["type", "Seuil de Puissance", "element", "cost"],
         "formats": [
             {
                 "title": "Test (sans règle de deck)",

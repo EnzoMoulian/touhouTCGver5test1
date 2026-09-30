@@ -12,9 +12,9 @@
         "name": "Saki Kurokoma",
         "type": "Unités",
         "cost": 1,
-        "PP": 4,
+        "Seuil de Puissance": 4,
         "tags": ["Bête", "Clan Keiga"],
-        "element": "Feu",
+        "element": "🔥 Feu",
         "isHorizontal": "false"
     },
     "tst-002": {
@@ -30,9 +30,9 @@
         "name": "Flandre Scarlet",
         "type": "Unités",
         "cost": 3,
-        "PP": 7,
+        "Seuil de Puissance": 7,
         "tags": ["Démon", "Vampire"],
-        "element": "Feu",
+        "element": "🔥 Feu",
         "isHorizontal": "false"
     },
     "tst-003": {
@@ -48,9 +48,9 @@
         "name": "Yuugi Hoshiguma",
         "type": "Unités",
         "cost": 2,
-        "PP": 4,
+        "Seuil de Puissance": 4,
         "tags": ["Démon", "Bagarreur"],
-        "element": "Feu",
+        "element": "🔥 Feu",
         "isHorizontal": "false"
     },
     "tst-004": {
@@ -66,9 +66,9 @@
         "name": "Enoko Mitsugashira",
         "type": "Unités",
         "cost": 1,
-        "PP": 1,
+        "Seuil de Puissance": 1,
         "tags": ["Animal", "Vassal", "Clan Keiga"],
-        "element": "Feu",
+        "element": "🔥 Feu",
         "isHorizontal": "false"
     },
     "tst-005": {
@@ -86,9 +86,109 @@
         "name": "Technique Fulgurante « Hennissement Foudrouyant »",
         "type": "Cartes de sort",
         "cost": 1,
-        "PP": 3,
+        "Seuil de Puissance": 3,
         "tags": ["Art"],
-        "element": "Feu",
+        "element": "🔥 Feu",
         "isHorizontal": "false"
+    },
+    "tst-006": {
+        "id": "tst-006",
+        "face": {
+            "front": {
+                "name": {
+                    "name": "Trois Têtes « Feu de Cerbère »"
+                },
+                "type": "Cartes de sort",
+                "cost": 1,
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-006.png"
+            }
+        },
+        "name": "Trois Têtes « Feu de Cerbère »",
+        "type": "Cartes de sort",
+        "cost": 1,
+        "Seuil de Puissance": 3,
+        "tags": ["Art"],
+        "element": "🔥 Feu",
+        "isHorizontal": "false"
+    },
+    "tst-007": {
+        "id": "tst-007",
+        "face": {
+            "front": {
+                "name": {
+                    "name": "Signe d'Amour « Éclat Magistral »"
+                },
+                "type": "Cartes de sort",
+                "cost": 1,
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-007.png"
+            }
+        },
+        "name": "Signe d'Amour « Éclat Magistral »",
+        "type": "Cartes de sort",
+        "cost": 1,
+        "Seuil de Puissance": 4,
+        "tags": ["Danmaku"],
+        "element": "🔥 Feu",
+        "isHorizontal": "false"
+    },
+    "tst-008": {
+        "id": "tst-008",
+        "face": {
+            "front": {
+                "name": {
+                    "name": "Tir Interdit « Rupture de l’Arc Stellaire »"
+                },
+                "type": "Cartes de sort",
+                "cost": 3,
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-008.png"
+            }
+        },
+        "name": "Tir Interdit « Rupture de l’Arc Stellaire »",
+        "type": "Cartes de sort",
+        "cost": 3,
+        "Seuil de Puissance": 7,
+        "tags": ["Danmaku"],
+        "element": "🔥 Feu",
+        "isHorizontal": "false"
+    },
+    "tst-009": {
+        "id": "tst-009",
+        "face": {
+            "front": {
+                "name": {
+                    "name": "Sous-sol du Manoir du Démon Écarlate"
+                },
+                "type": "Lieux",
+                "cost": 1,
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-009.png"
+            }
+        },
+        "name": "Sous-sol du Manoir du Démon Écarlate",
+        "type": "Lieux",
+        "cost": 1,
+        "Seuil de Puissance": 5,
+        "tags": [],
+        "element": "🔥 Feu",
+        "isHorizontal": "true"
+    },
+    "tst-010": {
+        "id": "tst-010",
+        "face": {
+            "front": {
+                "name": {
+                    "name": "Enfer : Monde du Tiryagyoni"
+                },
+                "type": "Lieux",
+                "cost": 1,
+                "image": "https://enzomoulian.github.io/touhouTCGver5test1/elements/feu/TST-010.png"
+            }
+        },
+        "name": "Enfer : Monde du Tiryagyoni",
+        "type": "Lieux",
+        "cost": 1,
+        "Seuil de Puissance": 3,
+        "tags": [],
+        "element": "🔥 Feu",
+        "isHorizontal": "true"
     }
 }
