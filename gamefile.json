@@ -3,7 +3,7 @@
     "cardRotation": 90,
     "customHelp": "Grille 3x3 au centre. Unités : jouées épuisées dans la Réserve, puis déployées sur la grille.\nPuissance +1 à chaque tour (max 8) : répartissez-la entre PA et PM.\nBombe : cliquez sur une case pour poser ou retirer un fragment.\nPV : départ à 10.",
     "deckBuilding": {
-        "mainFilters": ["type", "Seuil de Puissance", "element", "cost"],
+        "mainFilters": ["type", "Seuil de Puissance", "element"],
         "formats": [
             {
                 "title": "Test (sans règle de deck)",
@@ -25,9 +25,9 @@
                 },
                 "categories": [
                     {
-                        "category": "Heroïne",
+                        "category": "Heroïnes",
                         "min": 1,
-                        "max": 21
+                        "max": 1
                     }
                 ]
             }
@@ -54,6 +54,16 @@
                 "drawOnStart": true,
                 "drawPerTurn": 1
             },
+            "tokens": [
+                {
+                    "name": "Bakezouri",
+                    "image": "https://enzomoulian.github.io/touhouTCGver5test1/unites-creees/TST-129.png"
+                },
+                {
+                    "name": "Kedama",
+                    "image": "https://enzomoulian.github.io/touhouTCGver5test1/unites-creees/TST-130.png"
+                }
+            ],
             "sections": {
                 "autoPlayFromHand": {
                     "Unités": "Reserve",
@@ -65,6 +75,7 @@
                     "Cartes de sort": "Discard",
                     "Lieux": "ActivePlace"
                 },
+                "categoriesAlreadyOnBoard": ["Heroïnes", "Grid_2_2"],
                 "layout": {
                     "direction": "row",
                     "content": [
@@ -902,19 +913,7 @@
         "dataUrl": "https://enzomoulian.github.io/touhouTCGver5test1/cards.json",
         "cardBack": "https://enzomoulian.github.io/touhouTCGver5test1/back-cards.png",
         "extraCardBacks": {
-            "Héroïne": "https://enzomoulian.github.io/touhouTCGver5test1/back-heroine.png"
+            "Heroïnes": "https://enzomoulian.github.io/touhouTCGver5test1/back-heroine.png"
         }
-    },
-    "tokens": [
-        {
-            "name": "Bakezouri",
-            "image": "https://enzomoulian.github.io/touhouTCGver5test1/unites-creees/TST-129.png",
-            "isUnique": false
-        },
-        {
-            "name": "Kedama",
-            "image": "https://enzomoulian.github.io/touhouTCGver5test1/unites-creees/TST-130.png",
-            "isUnique": false
-        }
-    ]
+    }
 }

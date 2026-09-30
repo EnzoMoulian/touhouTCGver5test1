@@ -1926,13 +1926,13 @@
         "face": {
             "front": {
                 "name": { "name": "Saki Kurokoma" },
-                "type": "Heroïne",
+                "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-105.png"
             }
         },
         "name": "Saki Kurokoma",
-        "type": "Heroïne",
+        "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Bête", "Clan Keiga"],
@@ -1944,13 +1944,13 @@
         "face": {
             "front": {
                 "name": { "name": "Remilia Scarlet" },
-                "type": "Heroïne",
+                "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-106.png"
             }
         },
         "name": "Remilia Scarlet",
-        "type": "Heroïne",
+        "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Démon", "Vampire"],
@@ -1962,13 +1962,13 @@
         "face": {
             "front": {
                 "name": { "name": "Marisa Kirisame" },
-                "type": "Heroïne",
+                "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-107.png"
             }
         },
         "name": "Marisa Kirisame",
-        "type": "Heroïne",
+        "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Humain", "Magicien"],
@@ -1980,13 +1980,13 @@
         "face": {
             "front": {
                 "name": { "name": "Sanae Kochiya" },
-                "type": "Heroïne",
+                "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-108.png"
             }
         },
         "name": "Sanae Kochiya",
-        "type": "Heroïne",
+        "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Humain", "Dieu", "Prêtresse"],
@@ -1998,13 +1998,13 @@
         "face": {
             "front": {
                 "name": { "name": "Suwako Moriya" },
-                "type": "Heroïne",
+                "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-109.png"
             }
         },
         "name": "Suwako Moriya",
-        "type": "Heroïne",
+        "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Dieu", "Nature"],
@@ -2016,13 +2016,13 @@
         "face": {
             "front": {
                 "name": { "name": "Reimu Hakurei" },
-                "type": "Heroïne",
+                "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-110.png"
             }
         },
         "name": "Reimu Hakurei",
-        "type": "Heroïne",
+        "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Humain", "Prêtresse"],
@@ -2034,13 +2034,13 @@
         "face": {
             "front": {
                 "name": { "name": "Byakuren Hijiri" },
-                "type": "Heroïne",
+                "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-111.png"
             }
         },
         "name": "Byakuren Hijiri",
-        "type": "Heroïne",
+        "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Magicienne", "Prêtresse", "Adepte Myouren"],
@@ -2052,13 +2052,13 @@
         "face": {
             "front": {
                 "name": { "name": "Minamitsu Murasa" },
-                "type": "Heroïne",
+                "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-112.png"
             }
         },
         "name": "Minamitsu Murasa",
-        "type": "Heroïne",
+        "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Fantôme", "Aquatique"],
@@ -2070,13 +2070,13 @@
         "face": {
             "front": {
                 "name": { "name": "Eirin Yagokoro" },
-                "type": "Heroïne",
+                "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-113.png"
             }
         },
         "name": "Eirin Yagokoro",
-        "type": "Heroïne",
+        "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Dieu", "Sélénite"],
@@ -2088,13 +2088,13 @@
         "face": {
             "front": {
                 "name": { "name": "Satori Komeiji" },
-                "type": "Heroïne",
+                "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-114.png"
             }
         },
         "name": "Satori Komeiji",
-        "type": "Heroïne",
+        "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Satori"],
@@ -2106,13 +2106,13 @@
         "face": {
             "front": {
                 "name": { "name": "Yukari Yakumo" },
-                "type": "Heroïne",
+                "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-115.png"
             }
         },
         "name": "Yukari Yakumo",
-        "type": "Heroïne",
+        "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Sage"],
@@ -2124,13 +2124,13 @@
         "face": {
             "front": {
                 "name": { "name": "Junko" },
-                "type": "Heroïne",
+                "type": "Heroïnes",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-116.png"
             }
         },
         "name": "Junko",
-        "type": "Heroïne",
+        "type": "Heroïnes",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Dieu", "Esprit"],
@@ -2150,7 +2150,7 @@
             }
         },
         "name": "Technique Fulgurante « Météores du Pégase Noir »",
-        "type": "Heroïne",
+        "type": "Cartes de sort signatures",
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Art"],
@@ -2168,7 +2168,7 @@
             }
         },
         "name": "Art Divin « Illusion Vampirique »",
-        "type": "Heroïne",
+        "type": "Cartes de sort signatures",
         "cost": 1,
         "Seuil de Puissance": 4,
         "tags": ["Art"],
@@ -2186,7 +2186,7 @@
             }
         },
         "name": "Canon Magique « Éclat Final »",
-        "type": "Heroïne",
+        "type": "Cartes de sort signatures",
         "cost": 2,
         "Seuil de Puissance": 6,
         "tags": ["Danmaku"],
@@ -2204,7 +2204,7 @@
             }
         },
         "name": "Art Ésotérique « Rituel de l’Oubli »",
-        "type": "Heroïne",
+        "type": "Cartes de sort signatures",
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Art"],
@@ -2224,7 +2224,7 @@
             }
         },
         "name": "Dieu Autochtone « Sept Pierres et Sept Arbres »",
-        "type": "Heroïne",
+        "type": "Cartes de sort signatures",
         "cost": 2,
         "Seuil de Puissance": 5,
         "tags": ["Art"],
@@ -2244,7 +2244,7 @@
             }
         },
         "name": "Esprit Divin « Sceau des Songes -Instant- »",
-        "type": "Heroïne",
+        "type": "Cartes de sort signatures",
         "cost": 2,
         "Seuil de Puissance": 5,
         "tags": ["Art"],
@@ -2262,7 +2262,7 @@
             }
         },
         "name": "Magie de Lumière « Voie Lactée Magique »",
-        "type": "Heroïne",
+        "type": "Cartes de sort signatures",
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Danmaku"],
@@ -2282,7 +2282,7 @@
             }
         },
         "name": "Signe du Port « Amarrage Éternel du Vaisseau Fantôme »",
-        "type": "Heroïne",
+        "type": "Cartes de sort signatures",
         "cost": 2,
         "Seuil de Puissance": 4,
         "tags": ["Danmaku"],
@@ -2302,7 +2302,7 @@
             }
         },
         "name": "Art Ésotérique « Inhumation Astrale Secrète »",
-        "type": "Heroïne",
+        "type": "Cartes de sort signatures",
         "cost": 3,
         "Seuil de Puissance": 5,
         "tags": ["Art"],
@@ -2320,7 +2320,7 @@
             }
         },
         "name": "Réminiscence « Hypnose Terrifiante »",
-        "type": "Heroïne",
+        "type": "Cartes de sort signatures",
         "cost": 1,
         "Seuil de Puissance": 3,
         "tags": ["Art"],
@@ -2340,7 +2340,7 @@
             }
         },
         "name": "Barrière « Malédiction du Rêve et de la Réalité »",
-        "type": "Heroïne",
+        "type": "Cartes de sort signatures",
         "cost": 3,
         "Seuil de Puissance": 7,
         "tags": ["Danmaku"],
@@ -2358,47 +2358,11 @@
             }
         },
         "name": "« Folie Immaculée »",
-        "type": "Heroïne",
+        "type": "Cartes de sort signatures",
         "cost": 1,
         "Seuil de Puissance": 6,
         "tags": ["Danmaku"],
         "element": ["🌌 Astra", "🔮 Anima"],
-        "isHorizontal": "false"
-    },
-    "tst-129": {
-        "id": "tst-129",
-        "face": {
-            "front": {
-                "name": { "name": "Bakezouri" },
-                "type": "Unités créées",
-                "cost": 0,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/unites-creees/TST-129.png"
-            }
-        },
-        "name": "Bakezouri",
-        "type": "Unités créées",
-        "cost": 0,
-        "Seuil de Puissance": 0,
-        "tags": ["Tsukumogami"],
-        "element": ["⚪ Nihil"],
-        "isHorizontal": "false"
-    },
-    "tst-130": {
-        "id": "tst-130",
-        "face": {
-            "front": {
-                "name": { "name": "Kedama" },
-                "type": "Unités créées",
-                "cost": 0,
-                "image": "https://enzomoulian.github.io/touhouTCGver5test1/unites-creees/TST-130.png"
-            }
-        },
-        "name": "Kedama",
-        "type": "Unités créées",
-        "cost": 0,
-        "Seuil de Puissance": 0,
-        "tags": ["Nature"],
-        "element": ["⚪ Nihil"],
         "isHorizontal": "false"
     }
 }
