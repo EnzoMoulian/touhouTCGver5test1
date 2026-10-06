@@ -59,18 +59,7 @@
                 "drawPerTurn": 1
             },
             "sections": {
-                "autoPlayFromHand": {
-                    "Unités": "Reserve",
-                    "Cartes de sort": "Stack",
-                    "Lieux": "ActivePlace"
-                },
-                "autoPlayFromStack": {
-                    "Unités": "Reserve",
-                    "Cartes de sort": "Discard",
-                    "Lieux": "ActivePlace"
-                },
                 "layout": {
-                    "categoriesAlreadyOnBoard": ["Heroïnes", "Grid_2_2"],
                     "direction": "row",
                     "content": [
                         {
@@ -183,7 +172,18 @@
                                 }
                             ]
                         }
-                    ]
+                    ],
+                    "categoriesAlreadyOnBoard": ["Heroïnes", "Grid_2_2"],
+                    "autoPlayFromHand": {
+                        "Unités": "Reserve",
+                        "Cartes de sort": "Stack",
+                        "Lieux": "ActivePlace"
+                    },
+                    "autoPlayFromStack": {
+                        "Unités": "Reserve",
+                        "Cartes de sort": "Discard",
+                        "Lieux": "ActivePlace"
+                    }
                 },
                 "sectionsDict": {
                     "ActivePlace": {
