@@ -69,8 +69,8 @@
                     "Cartes de sort": "Discard",
                     "Lieux": "ActivePlace"
                 },
-                "categoriesAlreadyOnBoard": ["Heroïnes", "Grid_2_2"],
                 "layout": {
+                    "categoriesAlreadyOnBoard": ["Heroïnes", "Grid_2_2"],
                     "direction": "row",
                     "content": [
                         {
