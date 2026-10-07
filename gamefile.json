@@ -173,7 +173,7 @@
                             ]
                         }
                     ],
-                    "categoriesAlreadyOnBoard": ["Heroïnes", "Grid_2_2"],
+                    "categoriesAlreadyOnBoard": ["Heroïnes->Grid_2_2"],
                     "autoPlayFromHand": {
                         "Unités": "Reserve",
                         "Cartes de sort": "Stack",
