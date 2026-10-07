@@ -1946,13 +1946,13 @@
         "face": {
             "front": {
                 "name": { "name": "H - Saki Kurokoma" },
-                "type": "Heroïnes",
+                "type": "Heroines",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-105.png"
             }
         },
         "name": "H - Saki Kurokoma",
-        "type": "Heroïnes",
+        "type": "Heroines",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Bête", "Clan Keiga"],
@@ -1964,13 +1964,13 @@
         "face": {
             "front": {
                 "name": { "name": "H - Remilia Scarlet" },
-                "type": "Heroïnes",
+                "type": "Heroines",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-106.png"
             }
         },
         "name": "H - Remilia Scarlet",
-        "type": "Heroïnes",
+        "type": "Heroines",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Démon", "Vampire"],
@@ -1982,13 +1982,13 @@
         "face": {
             "front": {
                 "name": { "name": "H - Marisa Kirisame" },
-                "type": "Heroïnes",
+                "type": "Heroines",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-107.png"
             }
         },
         "name": "H - Marisa Kirisame",
-        "type": "Heroïnes",
+        "type": "Heroines",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Humain", "Magicien"],
@@ -2000,13 +2000,13 @@
         "face": {
             "front": {
                 "name": { "name": "H - Sanae Kochiya" },
-                "type": "Heroïnes",
+                "type": "Heroines",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-108.png"
             }
         },
         "name": "H - Sanae Kochiya",
-        "type": "Heroïnes",
+        "type": "Heroines",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Humain", "Dieu", "Prêtresse"],
@@ -2018,13 +2018,13 @@
         "face": {
             "front": {
                 "name": { "name": "H - Suwako Moriya" },
-                "type": "Heroïnes",
+                "type": "Heroines",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-109.png"
             }
         },
         "name": "H - Suwako Moriya",
-        "type": "Heroïnes",
+        "type": "Heroines",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Dieu", "Nature"],
@@ -2036,13 +2036,13 @@
         "face": {
             "front": {
                 "name": { "name": "H - Reimu Hakurei" },
-                "type": "Heroïnes",
+                "type": "Heroines",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-110.png"
             }
         },
         "name": "H - Reimu Hakurei",
-        "type": "Heroïnes",
+        "type": "Heroines",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Humain", "Prêtresse"],
@@ -2054,13 +2054,13 @@
         "face": {
             "front": {
                 "name": { "name": "H - Byakuren Hijiri" },
-                "type": "Heroïnes",
+                "type": "Heroines",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-111.png"
             }
         },
         "name": "H - Byakuren Hijiri",
-        "type": "Heroïnes",
+        "type": "Heroines",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Magicienne", "Prêtresse", "Adepte Myouren"],
@@ -2072,13 +2072,13 @@
         "face": {
             "front": {
                 "name": { "name": "H - Minamitsu Murasa" },
-                "type": "Heroïnes",
+                "type": "Heroines",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-112.png"
             }
         },
         "name": "H - Minamitsu Murasa",
-        "type": "Heroïnes",
+        "type": "Heroines",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Fantôme", "Aquatique"],
@@ -2090,13 +2090,13 @@
         "face": {
             "front": {
                 "name": { "name": "H - Eirin Yagokoro" },
-                "type": "Heroïnes",
+                "type": "Heroines",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-113.png"
             }
         },
         "name": "H - Eirin Yagokoro",
-        "type": "Heroïnes",
+        "type": "Heroines",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Dieu", "Sélénite"],
@@ -2108,13 +2108,13 @@
         "face": {
             "front": {
                 "name": { "name": "H - Satori Komeiji" },
-                "type": "Heroïnes",
+                "type": "Heroines",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-114.png"
             }
         },
         "name": "H - Satori Komeiji",
-        "type": "Heroïnes",
+        "type": "Heroines",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Satori"],
@@ -2126,13 +2126,13 @@
         "face": {
             "front": {
                 "name": { "name": "H - Yukari Yakumo" },
-                "type": "Heroïnes",
+                "type": "Heroines",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-115.png"
             }
         },
         "name": "H - Yukari Yakumo",
-        "type": "Heroïnes",
+        "type": "Heroines",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Sage"],
@@ -2144,13 +2144,13 @@
         "face": {
             "front": {
                 "name": { "name": "H - Junko" },
-                "type": "Heroïnes",
+                "type": "Heroines",
                 "cost": 0,
                 "image": "https://enzomoulian.github.io/touhouTCGver5test1/heroines/TST-116.png"
             }
         },
         "name": "H - Junko",
-        "type": "Heroïnes",
+        "type": "Heroines",
         "cost": 0,
         "Seuil de Puissance": 0,
         "tags": ["Dieu", "Esprit"],

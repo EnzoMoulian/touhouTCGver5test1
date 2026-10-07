@@ -20,7 +20,7 @@
                 },
                 "categories": [
                     {
-                        "category": "Heroïnes",
+                        "category": "Heroines",
                         "min": 1,
                         "max": 1
                     },
@@ -173,7 +173,7 @@
                             ]
                         }
                     ],
-                    "categoriesAlreadyOnBoard": ["Heroïnes->Grid_2_2"],
+                    "categoriesAlreadyOnBoard": ["Heroines->Grid_2_2"],
                     "autoPlayFromHand": {
                         "Unités": "Reserve",
                         "Cartes de sort": "Stack",
@@ -907,7 +907,7 @@
         "dataUrl": "https://enzomoulian.github.io/touhouTCGver5test1/cards.json",
         "cardBack": "https://enzomoulian.github.io/touhouTCGver5test1/back-cards.png",
         "extraCardBacks": {
-            "Heroïnes": "https://enzomoulian.github.io/touhouTCGver5test1/back-heroine.png"
+            "Heroines": "https://enzomoulian.github.io/touhouTCGver5test1/back-heroine.png"
         }
     }
 }
