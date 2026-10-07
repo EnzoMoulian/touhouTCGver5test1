@@ -172,18 +172,7 @@
                                 }
                             ]
                         }
-                    ],
-                    "categoriesAlreadyOnBoard": ["Heroines->Grid_2_2"],
-                    "autoPlayFromHand": {
-                        "Unités": "Reserve",
-                        "Cartes de sort": "Stack",
-                        "Lieux": "ActivePlace"
-                    },
-                    "autoPlayFromStack": {
-                        "Unités": "Reserve",
-                        "Cartes de sort": "Discard",
-                        "Lieux": "ActivePlace"
-                    }
+                    ]
                 },
                 "sectionsDict": {
                     "ActivePlace": {
@@ -899,6 +888,17 @@
                             }
                         }
                     }
+                },
+                "categoriesAlreadyOnBoard": ["Heroines->Grid_2_2"],
+                "autoPlayFromHand": {
+                    "Unités": "Reserve",
+                    "Cartes de sort": "Stack",
+                    "Lieux": "ActivePlace"
+                },
+                "autoPlayFromStack": {
+                    "Unités": "Reserve",
+                    "Cartes de sort": "Discard",
+                    "Lieux": "ActivePlace"
                 }
             }
         }
